@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+@theme {
+  --color-base: #14120F;
+  --color-surface: #1C1A16;
+  --color-surface-elevated: #24211C;
+  --color-border: #322E27;
+  --color-border-subtle: #29251F;
+
+  /* Primary Accent: Amber / Copper */
+  --color-amber-primary: #D97706;
+  --color-amber-light: #F59E0B;
+  --color-amber-bright: #FBBF24;
+  --color-amber-dim: #92400E;
+
+  /* Secondary Accent: Deep Teal / Muted Sage */
+  --color-teal-accent: #2DD4BF;
+  --color-teal-dim: #0D9488;
+
+  /* Alert / Danger */
+  --color-danger: #EF4444;
+  --color-danger-dim: #991B1B;
+
+  /* Warm Neutrals */
+  --color-text-primary: #F5F3EF;
+  --color-text-secondary: #E6E2DA;
+  --color-text-muted: #A8A29E;
+  --color-text-subtle: #78716C;
+
+  --font-display: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: #14120F;
+  color: #E6E2DA;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #14120F;
+}
+::-webkit-scrollbar-thumb {
+  background: #322E27;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D97706;
+}
+
+.font-display { font-family: var(--font-display); }
+.font-mono { font-family: var(--font-mono); }
+
+/* Global Page Container — Standard 1440px max-width, responsive horizontal padding */
+.page-container {
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+@media (max-width: 1024px) {
+  .page-container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (max-width: 640px) {
+  .page-container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes ticker-marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-fade-in { animation: fade-in 0.3s ease forwards; }
+.animate-ticker {
+  display: inline-flex;
+  width: max-content;
+  will-change: transform;
+  animation: ticker-marquee 35s linear infinite;
+}
+.animate-ticker:hover {
+  animation-play-state: paused;
+}
+

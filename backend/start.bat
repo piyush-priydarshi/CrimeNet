@@ -1,0 +1,6 @@
+@echo off
+echo Installing Python dependencies...
+pip install -r requirements.txt
+echo Downloading spaCy model...
+python -m spacy download en_core_web_sm
+python -m uvicorn main:app --reload --port 8000
