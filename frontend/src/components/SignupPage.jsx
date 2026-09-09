@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import { Network, UserPlus, Eye, EyeOff, ArrowRight, CheckCircle } from 'lucide-react'
+import { Network, UserPlus, Eye, EyeOff, ArrowRight, CheckCircle, ChevronLeft } from 'lucide-react'
 
-export default function SignupPage({ onSignup, onGoToLogin }) {
+export default function SignupPage({ onSignup, onGoToLogin, onGoHome }) {
   const [name, setName] = useState('')
   const [caseId, setCaseId] = useState('')
   const [password, setPassword] = useState('')
@@ -70,16 +70,27 @@ export default function SignupPage({ onSignup, onGoToLogin }) {
 
       {/* Header */}
       <header className="border-b border-[#322E27] bg-[#1C1A16]/95 backdrop-blur-md h-16 shrink-0 flex items-center relative z-10">
-        <div className="page-container flex items-center gap-3">
-          <div className="w-9 h-9 rounded-lg bg-[#D97706]/15 border border-[#D97706]/40 flex items-center justify-center text-[#F59E0B] shrink-0">
-            <Network size={19} />
+        <div className="page-container flex items-center justify-between gap-4">
+          <div className="flex items-center gap-3">
+            <div className="w-9 h-9 rounded-lg bg-[#D97706]/15 border border-[#D97706]/40 flex items-center justify-center text-[#F59E0B] shrink-0">
+              <Network size={19} />
+            </div>
+            <div className="flex items-center gap-2.5">
+              <span className="font-bold text-base text-white tracking-tight">CrimeNet</span>
+              <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-[#24211C] border border-[#322E27] text-[#D97706]">
+                MHA / NCRB
+              </span>
+            </div>
           </div>
-          <div className="flex items-center gap-2.5">
-            <span className="font-bold text-base text-white tracking-tight">CrimeNet</span>
-            <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-[#24211C] border border-[#322E27] text-[#D97706]">
-              MHA / NCRB
-            </span>
-          </div>
+          {onGoHome && (
+            <button
+              onClick={onGoHome}
+              className="inline-flex items-center gap-1.5 h-10 px-4 rounded-lg border border-[#322E27] bg-[#24211C] text-[#A8A29E] hover:text-white hover:bg-[#2C2822] hover:border-[#443E35] text-xs font-medium transition-all shadow-sm"
+            >
+              <ChevronLeft size={15} />
+              <span>Back to Home</span>
+            </button>
+          )}
         </div>
       </header>
 

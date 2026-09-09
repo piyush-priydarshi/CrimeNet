@@ -161,6 +161,7 @@ export default function App() {
       <LoginPage
         onLogin={handleAuthSuccess}
         onGoToSignup={() => navigateTo('/signup')}
+        onGoHome={() => navigateTo('/')}
       />
     )
   }
@@ -172,6 +173,7 @@ export default function App() {
       <SignupPage
         onSignup={handleAuthSuccess}
         onGoToLogin={() => navigateTo('/login')}
+        onGoHome={() => navigateTo('/')}
       />
     )
   }
