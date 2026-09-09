@@ -1,4 +1,4 @@
-# CrimeNet AI — Criminal Network Analysis System
+# CrimeNet — Criminal Network Analysis System
 
 > Hackathon Demo | Ministry of Home Affairs / NCRB Use Case | **Synthetic data only**
 

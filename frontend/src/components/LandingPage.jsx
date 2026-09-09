@@ -14,6 +14,7 @@ import {
   Sparkles,
   Building2,
   Activity,
+  LogIn,
 } from 'lucide-react'
 
 const LandingHero3D = lazy(() => import('./LandingHero3D'))
@@ -29,7 +30,7 @@ export default function LandingPage({ onLaunchDashboard }) {
               <Network size={19} />
             </div>
             <div className="flex items-center gap-2.5">
-              <span className="font-bold text-base text-white tracking-tight">CrimeNet AI</span>
+              <span className="font-bold text-base text-white tracking-tight">CrimeNet</span>
               <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-[#24211C] border border-[#322E27] text-[#D97706]">
                 MHA / NCRB
               </span>
@@ -42,13 +43,22 @@ export default function LandingPage({ onLaunchDashboard }) {
             <a href="#capabilities" className="hover:text-white transition-colors">Capabilities</a>
           </nav>
 
-          <button
-            onClick={onLaunchDashboard}
-            className="inline-flex items-center justify-center gap-2 h-10 px-4 rounded-lg bg-[#D97706] hover:bg-[#B45309] text-[#14120F] font-semibold text-xs transition-all shadow-sm group select-none shrink-0"
-          >
-            <span>Launch platform</span>
-            <ArrowRight size={14} className="group-hover:translate-x-0.5 transition-transform" />
-          </button>
+          <div className="flex items-center gap-3">
+            <button
+              onClick={onLaunchDashboard}
+              className="inline-flex items-center justify-center gap-2 h-10 px-5 rounded-lg border border-[#322E27] bg-[#24211C] hover:bg-[#2C2822] hover:border-[#443E35] text-[#E6E2DA] hover:text-white font-semibold text-xs transition-all shadow-sm select-none shrink-0"
+            >
+              <LogIn size={14} />
+              <span>Login</span>
+            </button>
+            <button
+              onClick={onLaunchDashboard}
+              className="inline-flex items-center justify-center gap-2 h-10 px-5 rounded-lg bg-[#D97706] hover:bg-[#B45309] text-[#14120F] font-semibold text-xs transition-all shadow-sm group select-none shrink-0"
+            >
+              <span>Get Started</span>
+              <ArrowRight size={14} className="group-hover:translate-x-0.5 transition-transform" />
+            </button>
+          </div>
         </div>
       </header>
 
@@ -68,7 +78,7 @@ export default function LandingPage({ onLaunchDashboard }) {
               </h1>
 
               <p className="text-base sm:text-lg text-[#D6D3D1] leading-relaxed max-w-xl">
-                CrimeNet AI transforms fragmented investigative reports into connected intelligence graphs — exposing shadow coordinators, financial pipelines, and cross-jurisdictional syndicate nexuses.
+                CrimeNet transforms fragmented investigative reports into connected intelligence graphs — exposing shadow coordinators, financial pipelines, and cross-jurisdictional syndicate nexuses.
               </p>
 
               {/* Matched Height & Spaced CTA Buttons */}
@@ -106,38 +116,16 @@ export default function LandingPage({ onLaunchDashboard }) {
               </div>
             </div>
 
-            {/* Right Column: Controlled 3D Visualization Container */}
-            <div className="lg:col-span-5 flex flex-col justify-center">
-              <div className="w-full h-[410px] sm:h-[440px] lg:h-[470px] rounded-2xl border border-[#322E27] bg-[#181613] overflow-hidden shadow-2xl flex flex-col justify-between">
-                {/* 3D Header Bar */}
-                <div className="px-4 py-3 bg-[#1C1A16] border-b border-[#322E27] flex items-center justify-between shrink-0 select-none">
-                  <div className="flex items-center gap-2">
-                    <Activity size={15} className="text-[#D97706]" />
-                    <span className="text-xs font-mono font-bold text-white tracking-wider uppercase">TOPOLOGY PREVIEW</span>
+            {/* Right Column: Seamless 3D Topology Animation (No card frame, borders, or instruction overlays) */}
+            <div className="lg:col-span-5 flex flex-col justify-center items-center">
+              <div className="w-full h-[400px] sm:h-[450px] lg:h-[490px] relative overflow-hidden flex items-center justify-center">
+                <Suspense fallback={
+                  <div className="w-full h-full flex items-center justify-center text-[#A8A29E] text-xs font-mono">
+                    Initializing topology...
                   </div>
-                  <span className="text-[10px] font-mono text-[#2DD4BF] bg-[#2DD4BF]/10 px-2.5 py-0.5 rounded-full border border-[#2DD4BF]/30 font-semibold tracking-wide">
-                    INTERACTIVE 3D
-                  </span>
-                </div>
-
-                {/* 3D Canvas Body */}
-                <div className="relative w-full flex-1 overflow-hidden bg-[#14120F]">
-                  <Suspense fallback={
-                    <div className="w-full h-full flex items-center justify-center text-[#A8A29E] text-xs font-mono">
-                      Initializing topology...
-                    </div>
-                  }>
-                    <LandingHero3D />
-                  </Suspense>
-                </div>
-
-                {/* 3D Footer Bar */}
-                <div className="px-4 py-3 bg-[#1C1A16] border-t border-[#322E27] flex items-center justify-between text-[11px] text-[#A8A29E] shrink-0 select-none">
-                  <span className="truncate">Rotate & drag to examine syndicate cluster</span>
-                  <span className="font-mono text-[#D97706] shrink-0 font-semibold bg-[#24211C] px-2 py-0.5 rounded-md border border-[#322E27]">
-                    31 Links · 17 Nodes
-                  </span>
-                </div>
+                }>
+                  <LandingHero3D />
+                </Suspense>
               </div>
             </div>
           </div>
@@ -399,7 +387,7 @@ export default function LandingPage({ onLaunchDashboard }) {
         <div className="page-container flex flex-col sm:flex-row items-center justify-between gap-5 text-xs text-[#78716C]">
           <div className="flex items-center gap-3">
             <div className="w-2.5 h-2.5 rounded-full bg-[#D97706]" />
-            <span className="text-[#E6E2DA] font-medium text-sm">CrimeNet AI · Law Enforcement Intelligence Decision Support</span>
+            <span className="text-[#E6E2DA] font-medium text-sm">CrimeNet · Law Enforcement Intelligence Decision Support</span>
           </div>
           <div className="font-mono text-xs text-[#A8A29E]">
             Smart India Hackathon · MHA / NCRB Standard · Synthetic Demonstration Data

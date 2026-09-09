@@ -82,7 +82,7 @@ export default function IntakePage({ onNavigate, onProcessed }) {
               <div className="w-8 h-8 rounded-lg bg-[#D97706]/15 border border-[#D97706]/40 flex items-center justify-center text-[#F59E0B]">
                 <Network size={18} />
               </div>
-              <span className="text-base font-bold text-white tracking-tight">CrimeNet AI</span>
+              <span className="text-base font-bold text-white tracking-tight">CrimeNet</span>
               <span className="text-[10px] font-mono font-bold bg-[#24211C] text-[#D97706] border border-[#322E27] px-2 py-0.5 rounded uppercase">
                 Intake Protocol
               </span>
@@ -299,7 +299,7 @@ export default function IntakePage({ onNavigate, onProcessed }) {
       {/* Footer */}
       <footer className="border-t border-[#322E27] py-8 text-center text-xs text-[#78716C] bg-[#100E0C]">
         <div className="page-container">
-          CrimeNet AI · Law Enforcement Multi-Agency Intake System · MHA / NCRB Standard
+          CrimeNet · Law Enforcement Multi-Agency Intake System · MHA / NCRB Standard
         </div>
       </footer>
     </div>

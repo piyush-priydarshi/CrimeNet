@@ -11,6 +11,8 @@ import Ticker from './components/Ticker'
 import GeoMap from './components/GeoMap'
 import LandingPage from './components/LandingPage'
 import IntakePage from './components/IntakePage'
+import LoginPage from './components/LoginPage'
+import SignupPage from './components/SignupPage'
 import {
   Radio,
   Layers,
@@ -22,6 +24,8 @@ import {
   ChevronLeft,
   Network,
   RotateCcw,
+  LogOut,
+  User,
 } from 'lucide-react'
 
 const NetworkGraph = lazy(() => import('./components/NetworkGraph'))
@@ -36,9 +40,18 @@ const TABS = [
 ]
 
 export default function App() {
+  // Auth state — check localStorage for existing session
+  const [user, setUser] = useState(() => {
+    try {
+      const session = localStorage.getItem('crimenet_session')
+      return session ? JSON.parse(session) : null
+    } catch { return null }
+  })
+  const [authPage, setAuthPage] = useState('login') // 'login' | 'signup'
+
   const [route, setRoute] = useState(() => {
     const p = window.location.pathname
-    if (p === '/dashboard' || p === '/intake') return p
+    if (['/dashboard', '/intake', '/login', '/signup'].includes(p)) return p
     return '/'
   })
   const [tab, setTab] = useState('network')
@@ -54,7 +67,7 @@ export default function App() {
   useEffect(() => {
     const handlePopState = () => {
       const p = window.location.pathname
-      setRoute(p === '/dashboard' || p === '/intake' ? p : '/')
+      setRoute(['/dashboard', '/intake', '/login', '/signup'].includes(p) ? p : '/')
     }
     window.addEventListener('popstate', handlePopState)
     return () => window.removeEventListener('popstate', handlePopState)
@@ -124,15 +137,53 @@ export default function App() {
     }
   }
 
-  // 1. Render Landing Page at "/"
-  if (route === '/') {
-    return <LandingPage onLaunchDashboard={() => navigateTo('/intake')} />
+  const handleLogout = () => {
+    localStorage.removeItem('crimenet_session')
+    setUser(null)
+    setAuthPage('login')
+    navigateTo('/')
   }
 
-  // 2. Render Intermediate Data Intake Screen at "/intake"
+  const handleAuthSuccess = (u) => {
+    setUser(u)
+    navigateTo('/intake')
+  }
+
+  // 1. Landing Page — always public
+  if (route === '/') {
+    return <LandingPage onLaunchDashboard={() => navigateTo(user ? '/intake' : '/login')} />
+  }
+
+  // 2. Login page
+  if (route === '/login') {
+    if (user) { navigateTo('/intake'); return null }
+    return (
+      <LoginPage
+        onLogin={handleAuthSuccess}
+        onGoToSignup={() => navigateTo('/signup')}
+      />
+    )
+  }
+
+  // 3. Signup page
+  if (route === '/signup') {
+    if (user) { navigateTo('/intake'); return null }
+    return (
+      <SignupPage
+        onSignup={handleAuthSuccess}
+        onGoToLogin={() => navigateTo('/login')}
+      />
+    )
+  }
+
+  // 4. Auth-gated: Intake
   if (route === '/intake') {
+    if (!user) { navigateTo('/login'); return null }
     return <IntakePage onNavigate={navigateTo} onProcessed={handleProcessed} />
   }
+
+  // 5. Auth-gated: Dashboard (falls through below)
+  if (!user) { navigateTo('/login'); return null }
 
   // 3. Render Main Results Dashboard Workspace at "/dashboard"
   return (
@@ -163,7 +214,7 @@ export default function App() {
               </div>
               <div className="min-w-0">
                 <div className="text-base font-bold text-white flex items-center gap-2.5">
-                  <span className="truncate text-white">CrimeNet AI</span>
+                  <span className="truncate text-white">CrimeNet</span>
                   <span className="text-[10px] font-mono font-bold bg-[#24211C] text-[#D97706] border border-[#322E27] px-2 py-0.5 rounded uppercase shrink-0">
                     MHA / NCRB
                   </span>
@@ -201,6 +252,24 @@ export default function App() {
               <div className="w-2 h-2 bg-[#2DD4BF] rounded-full animate-pulse" />
               <span className="text-xs font-mono text-[#E6E2DA] font-semibold">LIVE INTEL</span>
             </div>
+
+            {/* User badge + Logout */}
+            {user && (
+              <div className="flex items-center gap-2">
+                <div className="hidden sm:flex items-center gap-2 bg-[#24211C] border border-[#322E27] px-3 h-10 rounded-lg">
+                  <User size={14} className="text-[#D97706]" />
+                  <span className="text-xs text-[#E6E2DA] font-medium truncate max-w-[120px]">{user.name || user.caseId}</span>
+                </div>
+                <button
+                  onClick={handleLogout}
+                  title="Sign out"
+                  className="inline-flex items-center gap-1.5 h-10 px-3 rounded-lg border border-[#322E27] bg-[#24211C] text-[#A8A29E] hover:text-[#EF4444] hover:bg-[#EF4444]/10 hover:border-[#EF4444]/30 text-xs font-medium transition-all shadow-sm"
+                >
+                  <LogOut size={14} />
+                  <span className="hidden sm:inline">Logout</span>
+                </button>
+              </div>
+            )}
           </div>
         </div>
       </header>
@@ -304,7 +373,7 @@ export default function App() {
       {/* Footer in page-container */}
       <footer className="border-t border-[#322E27] py-6 text-center text-xs text-[#78716C] font-sans bg-[#181613]">
         <div className="page-container flex flex-col sm:flex-row items-center justify-between gap-3">
-          <span>CrimeNet AI · Multi-Agency Syndicate Intelligence Platform</span>
+          <span>CrimeNet · Multi-Agency Syndicate Intelligence Platform</span>
           <span className="font-mono text-[11px] text-[#A8A29E]">Specification: Ministry of Home Affairs / NCRB</span>
         </div>
       </footer>

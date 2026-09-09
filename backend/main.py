@@ -8,7 +8,7 @@ from sample_data import SAMPLE_REPORTS, LOCATION_COORDS
 from extractor import extract_entities
 import graph_engine as ge
 
-app = FastAPI(title="CrimeNet AI", version="1.0")
+app = FastAPI(title="CrimeNet", version="1.0")
 
 app.add_middleware(
     CORSMiddleware,
@@ -92,7 +92,7 @@ def generate_brief():
     high_alerts = [a for a in alerts if a["severity"] == "HIGH"]
 
     brief = {
-        "title": "INVESTIGATOR CASE BRIEF — CrimeNet AI Analysis",
+        "title": "INVESTIGATOR CASE BRIEF — CrimeNet Analysis",
         "generated_at": "2024-12-30T23:59:00",
         "summary": (
             f"Analysis of {n_reports} intelligence reports revealed a network of {n_nodes} entities "

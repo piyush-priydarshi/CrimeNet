@@ -39,7 +39,7 @@ export default function BriefPanel({ enabled }) {
 
   const copySummary = () => {
     if (!brief) return
-    const text = `CRIMENET AI - INTELLIGENCE BRIEF\n\nGenerated: ${brief.generated_at}\n\nSUMMARY:\n${brief.summary}\n\nKEY FINDING:\n${brief.key_finding}\n\nTOP SUSPECTS:\n${(brief.top_suspects || []).join('\n')}\n\nRECOMMENDATIONS:\n${brief.recommendation}`
+    const text = `CRIMENET - INTELLIGENCE BRIEF\n\nGenerated: ${brief.generated_at}\n\nSUMMARY:\n${brief.summary}\n\nKEY FINDING:\n${brief.key_finding}\n\nTOP SUSPECTS:\n${(brief.top_suspects || []).join('\n')}\n\nRECOMMENDATIONS:\n${brief.recommendation}`
     navigator.clipboard.writeText(text)
     setCopied(true)
     setTimeout(() => setCopied(false), 2000)

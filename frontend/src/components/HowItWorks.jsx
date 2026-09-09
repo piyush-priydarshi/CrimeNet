@@ -20,7 +20,7 @@ export default function HowItWorks() {
       >
         <div className="flex items-center gap-2.5">
           <Info size={16} className="text-[#D97706]" />
-          <span className="font-sans text-sm font-semibold text-[#E6E2DA]">How CrimeNet AI analyzes criminal networks</span>
+          <span className="font-sans text-sm font-semibold text-[#E6E2DA]">How CrimeNet analyzes criminal networks</span>
         </div>
         <ChevronDown size={16} className={`text-[#A8A29E] transition-transform duration-200 ${open ? 'rotate-180' : ''}`} />
       </button>
