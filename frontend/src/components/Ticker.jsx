@@ -11,16 +11,19 @@ const TICKER_ITEMS = [
 
 export default function Ticker() {
   return (
-    <div className="relative overflow-hidden w-full max-w-full h-8 bg-[#181613] border-y border-[#322E27] flex items-center select-none z-20">
-      {/* Solid non-overlapping badge with shadow */}
-      <div className="relative z-20 shrink-0 px-4 font-mono text-[11px] font-bold text-[#EF4444] tracking-wider border-r border-[#322E27] h-full flex items-center bg-[#181613] shadow-[4px_0_12px_rgba(0,0,0,0.8)]">
+    <div className="relative overflow-hidden w-full max-w-full h-9 bg-[#181613] border-y border-[#322E27] flex items-center select-none z-20">
+      {/* Solid non-overlapping badge */}
+      <div className="relative z-20 shrink-0 px-4 font-mono text-xs font-bold text-[#EF4444] tracking-wider border-r border-[#322E27] h-full flex items-center bg-[#1C1A16] shadow-md">
         <span className="w-2 h-2 rounded-full bg-[#EF4444] mr-2 animate-pulse shrink-0" />
         <span className="whitespace-nowrap">LIVE INTEL</span>
       </div>
 
-      {/* Marquee viewport */}
-      <div className="flex-1 overflow-hidden min-w-0 relative">
-        <div className="animate-ticker whitespace-nowrap font-sans text-xs text-[#E6E2DA] flex items-center">
+      {/* Marquee viewport with left and right gradient masks */}
+      <div className="flex-1 overflow-hidden min-w-0 relative h-full flex items-center">
+        <div className="pointer-events-none absolute left-0 top-0 bottom-0 w-6 bg-gradient-to-r from-[#181613] to-transparent z-10" />
+        <div className="pointer-events-none absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-[#181613] to-transparent z-10" />
+
+        <div className="animate-ticker whitespace-nowrap font-sans text-xs text-[#E6E2DA] flex items-center pl-4">
           {/* Duplicate tracks for seamless infinite scroll */}
           {[0, 1].map((trackIdx) => (
             <div key={trackIdx} className="flex items-center shrink-0">

@@ -97,7 +97,7 @@ function FloatingNetwork({ pointerRef }) {
 
 export default function LandingHero3D() {
   return (
-    <div className="w-full h-full">
+    <div className="absolute inset-0 w-full h-full">
       <Canvas
         camera={{ position: [0, 0, 7.8], fov: 48 }}
         gl={{ antialias: true, alpha: true }}

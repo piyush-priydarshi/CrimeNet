@@ -138,6 +138,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-[#14120F] text-[#E6E2DA] flex flex-col font-sans selection:bg-[#D97706]/30 selection:text-[#FBBF24]">
       {/* App Header with fixed 64px height and standard container */}
+      {/* App Header with fixed 64px height and standard container */}
       <header className="border-b border-[#322E27] bg-[#1C1A16]/95 backdrop-blur-md sticky top-0 z-30 shadow-sm h-16 shrink-0 flex items-center">
         <div className="page-container flex items-center justify-between gap-4">
           <div className="flex items-center gap-3 min-w-0">
@@ -145,7 +146,7 @@ export default function App() {
             <button
               onClick={() => navigateTo('/')}
               title="Return to Home"
-              className="flex items-center gap-1.5 text-xs text-[#A8A29E] hover:text-[#F5F3EF] transition-colors p-1.5 -ml-1.5 rounded-lg hover:bg-[#24211C]"
+              className="inline-flex items-center gap-1.5 h-10 px-3 rounded-lg border border-[#322E27] bg-[#24211C] text-xs font-medium text-[#A8A29E] hover:text-[#F5F3EF] hover:bg-[#2C2822] hover:border-[#443E35] transition-all shadow-sm shrink-0"
             >
               <ChevronLeft size={16} />
               <span className="hidden sm:inline">Home</span>
@@ -155,15 +156,15 @@ export default function App() {
 
             <div
               onClick={() => navigateTo('/')}
-              className="flex items-center gap-2.5 cursor-pointer group min-w-0"
+              className="flex items-center gap-3 cursor-pointer group min-w-0"
             >
-              <div className="w-8 h-8 rounded-lg bg-[#D97706]/15 border border-[#D97706]/40 flex items-center justify-center text-[#F59E0B] shrink-0 group-hover:border-[#D97706] transition-colors">
+              <div className="w-8 h-8 rounded-lg bg-[#D97706]/15 border border-[#D97706]/40 flex items-center justify-center text-[#F59E0B] shrink-0 group-hover:border-[#D97706] transition-colors shadow-sm">
                 <Network size={18} />
               </div>
               <div className="min-w-0">
-                <div className="text-base font-bold text-[#F5F3EF] flex items-center gap-2">
-                  <span className="truncate">CrimeNet AI</span>
-                  <span className="text-[10px] font-mono font-bold bg-[#24211C] text-[#D97706] border border-[#322E27] px-1.5 py-0.5 rounded uppercase shrink-0">
+                <div className="text-base font-bold text-white flex items-center gap-2.5">
+                  <span className="truncate text-white">CrimeNet AI</span>
+                  <span className="text-[10px] font-mono font-bold bg-[#24211C] text-[#D97706] border border-[#322E27] px-2 py-0.5 rounded uppercase shrink-0">
                     MHA / NCRB
                   </span>
                 </div>
@@ -171,27 +172,32 @@ export default function App() {
             </div>
           </div>
 
-          <div className="flex items-center gap-2.5 shrink-0">
+          <div className="flex items-center gap-3 shrink-0">
             {/* Load different data button routing back to /intake */}
             <button
               onClick={() => navigateTo('/intake')}
               title="Load different intelligence data"
-              className="inline-flex items-center gap-1.5 h-9 px-3 rounded-lg border border-[#322E27] bg-[#24211C] text-[#E6E2DA] hover:bg-[#2C2822] hover:border-[#443E35] hover:text-[#F5F3EF] text-xs font-medium transition-all shadow-sm"
+              className="inline-flex items-center gap-2 h-10 px-4 rounded-lg border border-[#322E27] bg-[#24211C] text-[#E6E2DA] hover:bg-[#2C2822] hover:border-[#443E35] hover:text-white text-xs font-medium transition-all shadow-sm"
             >
-              <RotateCcw size={13} className="text-[#D97706]" />
+              <RotateCcw size={14} className="text-[#D97706]" />
               <span className="hidden sm:inline">Load different data</span>
               <span className="sm:hidden">Intake</span>
             </button>
 
             {processed && (
-              <Btn onClick={runSimulation} variant="danger" size="sm" disabled={simLoading}>
-                <Radio size={13} className={simLoading ? 'animate-spin' : 'animate-pulse'} />
+              <button
+                type="button"
+                onClick={runSimulation}
+                disabled={simLoading}
+                className="inline-flex items-center gap-2 h-10 px-4 rounded-lg bg-[#EF4444]/15 hover:bg-[#EF4444]/25 border border-[#EF4444]/40 text-[#EF4444] text-xs font-semibold transition-all shadow-sm disabled:opacity-40 select-none"
+              >
+                <Radio size={14} className={simLoading ? 'animate-spin' : 'animate-pulse'} />
                 <span className="hidden sm:inline">{simLoading ? 'Ingesting...' : 'Simulate tip-off'}</span>
                 <span className="sm:hidden">Simulate</span>
-              </Btn>
+              </button>
             )}
 
-            <div className="flex items-center gap-2 bg-[#1C1A16] border border-[#322E27] px-2.5 py-1 rounded-lg shadow-sm h-9">
+            <div className="flex items-center gap-2 bg-[#1C1A16] border border-[#322E27] px-3.5 h-10 rounded-lg shadow-sm">
               <div className="w-2 h-2 bg-[#2DD4BF] rounded-full animate-pulse" />
               <span className="text-xs font-mono text-[#E6E2DA] font-semibold">LIVE INTEL</span>
             </div>
@@ -212,7 +218,7 @@ export default function App() {
             </div>
             <button
               onClick={() => setSimMsg(null)}
-              className="text-[#A8A29E] hover:text-[#F5F3EF] ml-4 text-sm font-bold shrink-0 p-1"
+              className="text-[#A8A29E] hover:text-white ml-4 text-sm font-bold shrink-0 p-1"
             >
               ✕
             </button>
@@ -221,15 +227,15 @@ export default function App() {
       )}
 
       {/* Dashboard Main Container (1440px max-width, standard page padding) */}
-      <main className="flex-1 page-container py-6 sm:py-8 space-y-6">
+      <main className="flex-1 page-container py-8 sm:py-10 flex flex-col gap-8">
         {/* Stat Cards Grid (6 equal cards) */}
         <Dashboard stats={stats} />
 
         {/* Full-Width Visualization & Analysis Tabs Panel */}
-        <div className="w-full flex flex-col bg-[#1C1A16] border border-[#322E27] rounded-xl overflow-hidden shadow-sm">
-          {/* Tab Navigation Bar — 44px height buttons, clear icons + labels, amber active indicator */}
-          <div className="p-3 bg-[#181613] border-b border-[#322E27] overflow-x-auto">
-            <nav className="flex items-center gap-2 min-w-max">
+        <div className="w-full flex flex-col bg-[#1C1A16] border border-[#322E27] rounded-2xl overflow-hidden shadow-sm">
+          {/* Tab Navigation Bar — Standard 40px height buttons, clear icons + labels, amber active indicator */}
+          <div className="p-2.5 bg-[#181613] border-b border-[#322E27] overflow-x-auto">
+            <nav className="flex items-center gap-2.5 min-w-max">
               {TABS.map(t => {
                 const Icon = t.icon
                 const isActive = tab === t.id
@@ -237,10 +243,10 @@ export default function App() {
                   <button
                     key={t.id}
                     onClick={() => setTab(t.id)}
-                    className={`h-11 px-4 sm:px-5 text-xs sm:text-sm font-sans rounded-lg transition-all duration-150 flex items-center gap-2 whitespace-nowrap shadow-sm select-none ${
+                    className={`h-10 px-4 sm:px-5 text-xs sm:text-sm font-sans rounded-lg transition-all duration-150 flex items-center gap-2 whitespace-nowrap shadow-sm select-none ${
                       isActive
                         ? 'bg-[#D97706] text-[#14120F] font-bold border border-[#D97706] shadow-sm'
-                        : 'bg-[#1C1A16] text-[#A8A29E] hover:text-[#F5F3EF] hover:bg-[#24211C] border border-[#322E27]'
+                        : 'bg-[#1C1A16] text-[#A8A29E] hover:text-white hover:bg-[#24211C] border border-[#322E27]'
                     }`}
                   >
                     <Icon

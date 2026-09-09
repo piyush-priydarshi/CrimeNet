@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --color-base: #14120F;
+  --color-bg-base: #14120F;
   --color-surface: #1C1A16;
   --color-surface-elevated: #24211C;
   --color-border: #322E27;
@@ -30,12 +30,6 @@
   --font-display: 'Inter', system-ui, -apple-system, sans-serif;
   --font-body: 'Inter', system-ui, -apple-system, sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
-}
-
-*, *::before, *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 html, body {
@@ -119,4 +113,3 @@ html, body {
 .animate-ticker:hover {
   animation-play-state: paused;
 }
-

@@ -1,9 +1,12 @@
 // Shared UI primitives — Card, Panel, Badge, Modal, Spinner, Btn, Input
 
+const CARD_PADDING = 'p-6 sm:p-7'
+const CARD_GAP = 'gap-3.5 sm:gap-4'
+
 export function Card({ children, className = '', glow = false }) {
   return (
     <div
-      className={`bg-[#1C1A16] border border-[#322E27] rounded-xl p-5 sm:p-6 flex flex-col transition-all duration-200 ${
+      className={`bg-[#1C1A16] border border-[#322E27] rounded-2xl ${CARD_PADDING} flex flex-col transition-all duration-200 ${
         glow ? 'border-[#D97706]/60 shadow-[0_0_15px_rgba(217,119,6,0.15)]' : ''
       } ${className}`}
     >
@@ -14,7 +17,7 @@ export function Card({ children, className = '', glow = false }) {
 
 export function Panel({ title, icon, children, className = '', action }) {
   return (
-    <div className={`bg-[#1C1A16] border border-[#322E27] rounded-xl flex flex-col overflow-hidden shadow-sm ${className}`}>
+    <div className={`bg-[#1C1A16] border border-[#322E27] rounded-2xl flex flex-col overflow-hidden shadow-sm ${className}`}>
       <div className="flex items-center justify-between px-6 py-4 border-b border-[#322E27] min-h-[56px] shrink-0">
         <div className="flex items-center gap-2.5 min-w-0">
           {icon && <span className="text-[#D97706] shrink-0">{icon}</span>}
@@ -22,7 +25,7 @@ export function Panel({ title, icon, children, className = '', action }) {
         </div>
         {action && <div className="shrink-0 ml-4">{action}</div>}
       </div>
-      <div className="flex-1 overflow-auto p-5 sm:p-6">{children}</div>
+      <div className="flex-1 overflow-auto p-6 sm:p-7">{children}</div>
     </div>
   )
 }
@@ -87,11 +90,11 @@ export function Modal({ title, onClose, children }) {
 }
 
 const BTN_SIZES = {
-  sm: 'h-8 px-3 text-xs gap-1.5',
+  sm: 'h-9 px-2.5 text-xs gap-1.5',
   md: 'h-10 px-4 text-sm gap-2',
-  lg: 'h-11 px-5 text-sm gap-2.5',
+  lg: 'h-12 px-6 text-sm gap-2.5',
   icon: 'h-10 w-10 p-0 text-sm',
-  'icon-sm': 'h-8 w-8 p-0 text-xs',
+  'icon-sm': 'h-9 w-9 p-0 text-xs',
 }
 
 const BTN_VARIANTS = {

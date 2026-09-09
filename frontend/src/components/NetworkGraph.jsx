@@ -33,9 +33,10 @@ export default function NetworkGraph({ graphData }) {
     const updateSize = () => {
       if (containerRef.current) {
         const { clientWidth, clientHeight } = containerRef.current
+        const toolbarHeight = 50
         setDimensions({
           width: Math.max(320, clientWidth || 800),
-          height: Math.max(360, clientHeight || 620),
+          height: Math.max(320, Math.max(0, (clientHeight || 620) - toolbarHeight)),
         })
       }
     }
@@ -48,15 +49,20 @@ export default function NetworkGraph({ graphData }) {
   const rawNodes = useMemo(() => graphData?.nodes || [], [graphData])
   const rawLinks = useMemo(() => graphData?.links || [], [graphData])
 
-  // Tune physics repulsion to prevent overlapping hairballs
+  // Tune physics repulsion & centering to cover the whole frame
   useEffect(() => {
     if (graphRef.current && ForceGraph) {
       const charge = graphRef.current.d3Force('charge')
-      if (charge) charge.strength(-300)
+      if (charge) charge.strength(-550).distanceMax(1400)
 
       const linkForce = graphRef.current.d3Force('link')
       if (linkForce) {
-        linkForce.distance(l => 60 / Math.sqrt(l.weight || 1))
+        linkForce.distance(l => 85 / Math.sqrt(l.weight || 1))
+      }
+
+      const center = graphRef.current.d3Force('center')
+      if (center) {
+        center.x(0).y(0).z(0)
       }
     }
   }, [ForceGraph, rawNodes, rawLinks, activeTypeFilter, isFullscreen])
@@ -70,9 +76,21 @@ export default function NetworkGraph({ graphData }) {
     return counts
   }, [rawNodes])
 
-  // Filtered dataset
+  // Filtered dataset with wide spatial distribution spanning the whole frame
   const filteredData = useMemo(() => {
-    let nodes = rawNodes.map(n => ({ ...n }))
+    let nodes = rawNodes.map((n, i) => {
+      // Distribute initial positions across a wide elliptical volume spanning both left and right
+      const angle = (i / Math.max(1, rawNodes.length)) * 2 * Math.PI
+      const spreadX = 260 + (i % 4) * 50
+      const spreadY = 140 + (i % 3) * 35
+      const spreadZ = ((i % 5) - 2) * 45
+      return {
+        ...n,
+        x: n.x ?? Math.cos(angle) * spreadX,
+        y: n.y ?? Math.sin(angle) * spreadY,
+        z: n.z ?? spreadZ,
+      }
+    })
     if (activeTypeFilter !== 'all') {
       nodes = nodes.filter(n => n.type === activeTypeFilter)
     }
@@ -92,6 +110,23 @@ export default function NetworkGraph({ graphData }) {
 
     return { nodes, links }
   }, [rawNodes, rawLinks, activeTypeFilter])
+
+  // Auto-fit camera so 3D graph dynamically covers both left and right sides of the canvas
+  const handleEngineStop = useCallback(() => {
+    if (graphRef.current) {
+      graphRef.current.zoomToFit(700, 50)
+    }
+  }, [])
+
+  useEffect(() => {
+    if (!graphRef.current || filteredData.nodes.length === 0) return
+    const timer = setTimeout(() => {
+      if (graphRef.current) {
+        graphRef.current.zoomToFit(700, 50)
+      }
+    }, 450)
+    return () => clearTimeout(timer)
+  }, [filteredData, dimensions.width, dimensions.height])
 
   // Search matches
   const searchResults = useMemo(() => {
@@ -114,7 +149,7 @@ export default function NetworkGraph({ graphData }) {
 
   const resetCamera = useCallback(() => {
     if (graphRef.current) {
-      graphRef.current.zoomToFit(900, 70)
+      graphRef.current.zoomToFit(800, 50)
     }
   }, [])
 
@@ -219,15 +254,18 @@ export default function NetworkGraph({ graphData }) {
 
   const containerClasses = isFullscreen
     ? 'fixed inset-0 z-50 w-screen h-screen bg-[#14120F] flex flex-col p-4'
-    : 'w-full h-full relative overflow-hidden bg-[#14120F]'
+    : 'w-full h-full relative overflow-hidden bg-[#14120F] flex flex-col'
 
   return (
     <div ref={containerRef} className={containerClasses}>
-      {/* Clean Non-Overlapping Toolbar */}
-      <div className="absolute top-4 left-4 right-4 z-10 flex flex-wrap items-center justify-between gap-3 pointer-events-none">
+      {/* Clean Dedicated Top Toolbar Strip */}
+      <div className="w-full px-4 py-2.5 bg-[#181613] border-b border-[#322E27] flex flex-wrap items-center justify-between gap-3 shrink-0 z-10 select-none">
         {/* Left: Entity Type Filter Pills */}
-        <div className="flex items-center gap-1 p-1 bg-[#1C1A16]/95 backdrop-blur-md rounded-lg border border-[#322E27] pointer-events-auto shadow-md h-10">
-          <Filter className="w-3.5 h-3.5 text-[#A8A29E] ml-2 mr-1 shrink-0" />
+        <div className="flex items-center gap-1.5 p-1 bg-[#1C1A16] rounded-lg border border-[#322E27] shadow-sm overflow-x-auto">
+          <div className="flex items-center gap-1 text-xs font-mono text-[#A8A29E] px-1.5 shrink-0">
+            <Filter className="w-3.5 h-3.5 text-[#D97706]" />
+            <span className="hidden sm:inline">FILTER:</span>
+          </div>
           {[
             { id: 'all', label: 'All', color: '#E6E2DA' },
             { id: 'person', label: 'Persons', color: NODE_COLORS.person },
@@ -239,10 +277,10 @@ export default function NetworkGraph({ graphData }) {
             <button
               key={tab.id}
               onClick={() => setActiveTypeFilter(tab.id)}
-              className={`h-8 px-2.5 sm:px-3 text-xs font-sans rounded-md transition-colors flex items-center gap-1.5 whitespace-nowrap ${
+              className={`h-8 px-2.5 sm:px-3 text-xs font-sans rounded-md transition-all flex items-center gap-1.5 whitespace-nowrap ${
                 activeTypeFilter === tab.id
-                  ? 'bg-[#D97706]/20 text-[#FBBF24] border border-[#D97706]/50 font-semibold'
-                  : 'text-[#A8A29E] hover:text-[#F5F3EF] hover:bg-[#24211C]'
+                  ? 'bg-[#D97706]/20 text-[#FBBF24] border border-[#D97706]/50 font-semibold shadow-sm'
+                  : 'text-[#A8A29E] hover:text-[#F5F3EF] hover:bg-[#24211C] border border-transparent'
               }`}
             >
               <span className="w-2 h-2 rounded-full shrink-0" style={{ backgroundColor: tab.color }} />
@@ -253,17 +291,17 @@ export default function NetworkGraph({ graphData }) {
         </div>
 
         {/* Right: Search, Reset, and Expand Controls */}
-        <div className="flex items-center gap-2 pointer-events-auto h-10">
+        <div className="flex items-center gap-2">
           {/* Search Input Box */}
-          <div className="relative h-10">
-            <div className="flex items-center gap-2 px-3 h-10 bg-[#1C1A16]/95 backdrop-blur-md rounded-lg border border-[#322E27] focus-within:border-[#D97706]/70 shadow-md">
-              <Search className="w-4 h-4 text-[#A8A29E] shrink-0" />
+          <div className="relative">
+            <div className="flex items-center gap-2 px-3 h-9 bg-[#1C1A16] rounded-lg border border-[#322E27] focus-within:border-[#D97706]/70 shadow-sm">
+              <Search className="w-3.5 h-3.5 text-[#A8A29E] shrink-0" />
               <input
                 type="text"
                 placeholder="Find entity..."
                 value={searchQuery}
                 onChange={e => setSearchQuery(e.target.value)}
-                className="bg-transparent text-xs sm:text-sm font-sans text-[#F5F3EF] placeholder-[#78716C] outline-none w-28 sm:w-36 focus:w-48 transition-all"
+                className="bg-transparent text-xs font-sans text-[#F5F3EF] placeholder-[#78716C] outline-none w-28 sm:w-36 focus:w-44 transition-all"
               />
               {searchQuery && (
                 <button
@@ -277,7 +315,7 @@ export default function NetworkGraph({ graphData }) {
 
             {/* Search Dropdown Results */}
             {searchResults.length > 0 && (
-              <div className="absolute right-0 mt-1.5 w-64 bg-[#1C1A16]/98 backdrop-blur-md rounded-lg border border-[#322E27] shadow-2xl z-20 py-1 max-h-56 overflow-y-auto">
+              <div className="absolute right-0 mt-1.5 w-64 bg-[#1C1A16]/98 backdrop-blur-md rounded-lg border border-[#322E27] shadow-2xl z-30 py-1 max-h-56 overflow-y-auto">
                 {searchResults.map(n => (
                   <button
                     key={n.id}
@@ -285,7 +323,7 @@ export default function NetworkGraph({ graphData }) {
                       focusOnNode(n)
                       setSearchQuery('')
                     }}
-                    className="w-full text-left px-3 py-2 text-xs sm:text-sm font-sans hover:bg-[#D97706]/15 hover:text-[#FBBF24] flex items-center justify-between transition-colors border-b border-[#322E27]/40 last:border-0"
+                    className="w-full text-left px-3 py-2 text-xs font-sans hover:bg-[#D97706]/15 hover:text-[#FBBF24] flex items-center justify-between transition-colors border-b border-[#322E27]/40 last:border-0"
                   >
                     <span className="truncate mr-2 text-[#F5F3EF]">{n.label}</span>
                     <span
@@ -307,7 +345,7 @@ export default function NetworkGraph({ graphData }) {
           <button
             onClick={resetCamera}
             title="Reset view"
-            className="h-10 px-3 bg-[#1C1A16]/95 hover:bg-[#24211C] text-[#E6E2DA] hover:text-white rounded-lg border border-[#322E27] backdrop-blur-md shadow-md transition-colors flex items-center gap-1.5 text-xs sm:text-sm font-sans font-medium"
+            className="h-9 px-3 bg-[#1C1A16] hover:bg-[#24211C] text-[#E6E2DA] hover:text-white rounded-lg border border-[#322E27] shadow-sm transition-colors flex items-center gap-1.5 text-xs font-sans font-medium"
           >
             <RotateCcw className="w-3.5 h-3.5 text-[#D97706]" />
             <span>Reset</span>
@@ -317,7 +355,7 @@ export default function NetworkGraph({ graphData }) {
           <button
             onClick={() => setIsFullscreen(f => !f)}
             title={isFullscreen ? 'Exit fullscreen' : 'Expand full viewport'}
-            className="h-10 px-3 bg-[#1C1A16]/95 hover:bg-[#24211C] text-[#E6E2DA] hover:text-white rounded-lg border border-[#322E27] backdrop-blur-md shadow-md transition-colors flex items-center gap-1.5 text-xs sm:text-sm font-sans font-medium"
+            className="h-9 px-3 bg-[#1C1A16] hover:bg-[#24211C] text-[#E6E2DA] hover:text-white rounded-lg border border-[#322E27] shadow-sm transition-colors flex items-center gap-1.5 text-xs font-sans font-medium"
           >
             {isFullscreen ? (
               <>
@@ -334,25 +372,28 @@ export default function NetworkGraph({ graphData }) {
         </div>
       </div>
 
-      {/* 3D Force Graph Render */}
-      <ForceGraph
-        ref={graphRef}
-        graphData={filteredData}
-        nodeThreeObject={createNodeObject}
-        nodeThreeObjectExtend={false}
-        nodeLabel={nodeLabelHtml}
-        linkColor={linkColor}
-        linkWidth={linkWidth}
-        linkOpacity={0.75}
-        backgroundColor="#14120F"
-        onNodeClick={n => setSelected(n)}
-        nodeResolution={16}
-        warmupTicks={70}
-        cooldownTicks={140}
-        width={dimensions.width}
-        height={dimensions.height}
-        enableNodeDrag
-      />
+      {/* 3D Force Graph Render Container */}
+      <div className="flex-1 w-full relative overflow-hidden bg-[#14120F]">
+        <ForceGraph
+          ref={graphRef}
+          graphData={filteredData}
+          nodeThreeObject={createNodeObject}
+          nodeThreeObjectExtend={false}
+          nodeLabel={nodeLabelHtml}
+          linkColor={linkColor}
+          linkWidth={linkWidth}
+          linkOpacity={0.75}
+          backgroundColor="#14120F"
+          onNodeClick={n => setSelected(n)}
+          onEngineStop={handleEngineStop}
+          nodeResolution={16}
+          warmupTicks={80}
+          cooldownTicks={160}
+          width={dimensions.width}
+          height={dimensions.height}
+          enableNodeDrag
+        />
+      </div>
 
       {/* Entity Details Modal */}
       {selected && (
