@@ -1,0 +1,6416 @@
+{
+  "reports": [
+    {
+      "id": "RPT-001",
+      "title": "Narcotics Seizure \u2013 Dharavi, Mumbai",
+      "date": "2024-11-12",
+      "text": "On 12 November 2024, officers from the Mumbai Anti-Narcotics Cell arrested Arjun Mehta and his associate Suresh Pillai near the Dharavi market complex. A vehicle bearing registration MH-02-AB-1234 was found carrying 4 kg of heroin. Arjun Mehta was in possession of a mobile phone with number 9820045678. Suresh Pillai's known associate Kabir Ansari, affiliated with the Red Crescent Syndicate, was last seen in Dharavi on 10 November. Suresh Pillai's contact number was noted as 9867123456."
+    },
+    {
+      "id": "RPT-002",
+      "title": "Arms Cache Discovery \u2013 Patna, Bihar",
+      "date": "2024-11-18",
+      "text": "On 18 November 2024, Bihar STF recovered an arms cache in the Phulwari Sharif locality of Patna. Informer tipoff led to the arrest of Devraj Singh and Manoj Tiwari. A motorcycle with registration BR-01-CD-5678 was seized at the scene. Devraj Singh admitted receiving instructions from an individual known only as 'Chacha', believed to be operating from Patna. Manoj Tiwari was found with a SIM card linked to number 9334567890. A receipt found in the vehicle bore the name Red Crescent Syndicate."
+    },
+    {
+      "id": "RPT-003",
+      "title": "Hawala Transaction Intercept \u2013 Delhi",
+      "date": "2024-11-22",
+      "text": "Delhi Police's Economic Offences Wing intercepted a hawala transaction of \u20b92.3 crore linked to Rajan Verma operating from Chandni Chowk, Delhi. Rajan Verma was seen coordinating with an associate named Priya Sharma at a tea stall. The vehicle used for cash transport bore the registration DL-05-EF-9012. Rajan Verma's contact number 9711234567 was identified from call records. Priya Sharma was observed meeting Kabir Ansari near Connaught Place two weeks earlier."
+    },
+    {
+      "id": "RPT-004",
+      "title": "Cyber Fraud Ring \u2013 Jamtara, Jharkhand",
+      "date": "2024-11-28",
+      "text": "Jharkhand Police dismantled a cyber fraud operation in Jamtara, arresting five individuals including Rohit Kumar and Anita Jha. The group used mobile numbers 9801234567 and 9334567890 to conduct vishing attacks targeting senior citizens. A laptop seized from Rohit Kumar contained records of transactions routed through shell entities including TechVault Solutions. Anita Jha was found with vehicle registration JH-10-GH-3456. Authorities note that the number 9334567890 appears in earlier Patna records."
+    },
+    {
+      "id": "RPT-005",
+      "title": "Human Trafficking Network \u2013 Agra, UP",
+      "date": "2024-12-03",
+      "text": "UP STF busted a human trafficking ring operating from Agra to Delhi. Key suspects include Farida Shaikh and Govind Rao. A minibus with registration UP-80-IJ-7890 was used to transport victims. Farida Shaikh communicated via number 9456789012. Govind Rao was linked through call records to Rajan Verma (contact 9711234567), establishing a potential financial connection between the trafficking ring and the Delhi hawala network. Victims reported being held near Taj Ganj, Agra."
+    },
+    {
+      "id": "RPT-006",
+      "title": "Explosive Material Cache \u2013 Hyderabad",
+      "date": "2024-12-08",
+      "text": "Hyderabad Police's bomb disposal unit found 12 kg of RDX hidden in a warehouse in Secunderabad. Surveillance linked the warehouse to Imran Qureshi and his brother Salim Qureshi. Vehicle TS-09-KL-2345 was seen near the warehouse multiple times. Imran Qureshi's phone 9440098765 showed calls to an unknown number in Delhi. The Secunderabad warehouse was rented under the name of a shell company called BlueShield Logistics."
+    },
+    {
+      "id": "RPT-007",
+      "title": "Drug Courier Network \u2013 Chennai Port",
+      "date": "2024-12-14",
+      "text": "Chennai Customs intercepted a drug shipment at Chennai Port concealed in a spice consignment. Suspects include Selvam Krishnan and Meena Rajan. A vehicle TN-09-MN-6789 was used to transport the consignment to a warehouse in Koyambedu. Selvam Krishnan's contact number 9444056789 was traced. Intelligence suggests Selvam Krishnan had prior contact with Arjun Mehta from Mumbai indicating a cross-regional network. Meena Rajan communicated with an entity called SunriseExport Pvt Ltd."
+    },
+    {
+      "id": "RPT-008",
+      "title": "Land Grab Nexus \u2013 Bengaluru",
+      "date": "2024-12-19",
+      "text": "Karnataka CID initiated an investigation into fraudulent land registrations in Whitefield, Bengaluru. Central figures are Deepa Nair and her associate Vivek Shetty. Forged documents were transported in vehicle KA-03-OP-4567. Deepa Nair's contact number 9845067890 appeared on documents. A company named PrimeLand Ventures was used as a front. Vivek Shetty was found to share an office with Priya Sharma who is already known to Delhi Police from Case RPT-003."
+    },
+    {
+      "id": "RPT-009",
+      "title": "Counterfeit Currency \u2013 Kolkata",
+      "date": "2024-12-24",
+      "text": "West Bengal Police seized fake currency notes worth \u20b950 lakh from a printing press in Metiabruz, Kolkata. Arrested suspects: Habibur Rahman and Nasreen Bibi. Vehicle WB-06-QR-8901 was used for distribution. Habibur Rahman's phone 9831067890 was in contact with a number in Nepal. Nasreen Bibi was found to have a prior acquaintance with Devraj Singh from the Patna arms case (RPT-002). The operation was funded through Red Crescent Syndicate accounts, tying it back to RPT-001 and RPT-002."
+    },
+    {
+      "id": "RPT-010",
+      "title": "HIDDEN LINK: Shadow Coordinator \u2013 Rajan Verma",
+      "date": "2024-12-30",
+      "text": "An intelligence note from RAW indicates that Rajan Verma (phone 9711234567), previously identified in the Delhi hawala case (RPT-003), made three calls to Imran Qureshi (phone 9440098765) of the Hyderabad explosives case (RPT-006) in the week preceding the Secunderabad warehouse discovery. This establishes Rajan Verma as a potential shadow coordinator across at least four cases: RPT-003 (Hawala/Delhi), RPT-005 (Trafficking/Agra), RPT-006 (Explosives/Hyderabad), and RPT-007 (Drugs/Chennai) via Arjun Mehta's connection. Rajan Verma may be connected to BlueShield Logistics and PrimeLand Ventures as financial beneficiaries. Recommended for immediate surveillance."
+    }
+  ],
+  "processResult": {
+    "reports_processed": 10,
+    "graph": {
+      "nodes": [
+        {
+          "id": "person::Arjun Mehta",
+          "label": "Arjun Mehta",
+          "type": "person",
+          "reports": [
+            "RPT-001",
+            "RPT-007"
+          ],
+          "degree": 0.2209,
+          "betweenness": 0.2257,
+          "pagerank": 0.0183,
+          "community": 0,
+          "weight": 1.5
+        },
+        {
+          "id": "person::Kabir Ansari",
+          "label": "Kabir Ansari",
+          "type": "person",
+          "reports": [
+            "RPT-003",
+            "RPT-001"
+          ],
+          "degree": 0.2093,
+          "betweenness": 0.5059,
+          "pagerank": 0.0159,
+          "community": 1,
+          "weight": 1.5
+        },
+        {
+          "id": "person::Pillai",
+          "label": "Pillai",
+          "type": "person",
+          "reports": [
+            "RPT-001"
+          ],
+          "degree": 0.093,
+          "betweenness": 0.0,
+          "pagerank": 0.0087,
+          "community": 2,
+          "weight": 1
+        },
+        {
+          "id": "person::Suresh Pillai",
+          "label": "Suresh Pillai",
+          "type": "person",
+          "reports": [
+            "RPT-001"
+          ],
+          "degree": 0.093,
+          "betweenness": 0.0,
+          "pagerank": 0.0087,
+          "community": 2,
+          "weight": 1
+        },
+        {
+          "id": "organization::Red Crescent Syndicate",
+          "label": "Red Crescent Syndicate",
+          "type": "organization",
+          "reports": [
+            "RPT-009",
+            "RPT-001",
+            "RPT-002"
+          ],
+          "degree": 0.3023,
+          "betweenness": 0.4129,
+          "pagerank": 0.0258,
+          "community": 3,
+          "weight": 2.0
+        },
+        {
+          "id": "organization::the Red Crescent Syndicate",
+          "label": "the Red Crescent Syndicate",
+          "type": "organization",
+          "reports": [
+            "RPT-001"
+          ],
+          "degree": 0.093,
+          "betweenness": 0.0,
+          "pagerank": 0.0087,
+          "community": 2,
+          "weight": 1
+        },
+        {
+          "id": "phone::9820045678",
+          "label": "9820045678",
+          "type": "phone",
+          "reports": [
+            "RPT-001"
+          ],
+          "degree": 0.093,
+          "betweenness": 0.0,
+          "pagerank": 0.0087,
+          "community": 2,
+          "weight": 1
+        },
+        {
+          "id": "phone::9867123456",
+          "label": "9867123456",
+          "type": "phone",
+          "reports": [
+            "RPT-001"
+          ],
+          "degree": 0.093,
+          "betweenness": 0.0,
+          "pagerank": 0.0087,
+          "community": 2,
+          "weight": 1
+        },
+        {
+          "id": "vehicle::MH-02-AB-1234",
+          "label": "MH-02-AB-1234",
+          "type": "vehicle",
+          "reports": [
+            "RPT-001"
+          ],
+          "degree": 0.093,
+          "betweenness": 0.0,
+          "pagerank": 0.0087,
+          "community": 2,
+          "weight": 1
+        },
+        {
+          "id": "person::Devraj Singh",
+          "label": "Devraj Singh",
+          "type": "person",
+          "reports": [
+            "RPT-009",
+            "RPT-002"
+          ],
+          "degree": 0.2093,
+          "betweenness": 0.0057,
+          "pagerank": 0.0187,
+          "community": 3,
+          "weight": 1.5
+        },
+        {
+          "id": "person::Manoj Tiwari",
+          "label": "Manoj Tiwari",
+          "type": "person",
+          "reports": [
+            "RPT-002"
+          ],
+          "degree": 0.1047,
+          "betweenness": 0.0,
+          "pagerank": 0.0095,
+          "community": 3,
+          "weight": 1
+        },
+        {
+          "id": "location::Bihar",
+          "label": "Bihar",
+          "type": "location",
+          "reports": [
+            "RPT-002"
+          ],
+          "degree": 0.1047,
+          "betweenness": 0.0,
+          "pagerank": 0.0095,
+          "community": 3,
+          "weight": 1
+        },
+        {
+          "id": "organization::Chacha",
+          "label": "Chacha",
+          "type": "organization",
+          "reports": [
+            "RPT-002"
+          ],
+          "degree": 0.1047,
+          "betweenness": 0.0,
+          "pagerank": 0.0095,
+          "community": 3,
+          "weight": 1
+        },
+        {
+          "id": "organization::Patna",
+          "label": "Patna",
+          "type": "organization",
+          "reports": [
+            "RPT-009",
+            "RPT-004",
+            "RPT-002"
+          ],
+          "degree": 0.2791,
+          "betweenness": 0.078,
+          "pagerank": 0.0259,
+          "community": 3,
+          "weight": 2.0
+        },
+        {
+          "id": "organization::Phulwari Sharif",
+          "label": "Phulwari Sharif",
+          "type": "organization",
+          "reports": [
+            "RPT-002"
+          ],
+          "degree": 0.1047,
+          "betweenness": 0.0,
+          "pagerank": 0.0095,
+          "community": 3,
+          "weight": 1
+        },
+        {
+          "id": "organization::SIM",
+          "label": "SIM",
+          "type": "organization",
+          "reports": [
+            "RPT-002"
+          ],
+          "degree": 0.1047,
+          "betweenness": 0.0,
+          "pagerank": 0.0095,
+          "community": 3,
+          "weight": 1
+        },
+        {
+          "id": "phone::9334567890",
+          "label": "9334567890",
+          "type": "phone",
+          "reports": [
+            "RPT-004",
+            "RPT-002"
+          ],
+          "degree": 0.1744,
+          "betweenness": 0.0575,
+          "pagerank": 0.0167,
+          "community": 3,
+          "weight": 1.5
+        },
+        {
+          "id": "vehicle::BR-01-CD-5678",
+          "label": "BR-01-CD-5678",
+          "type": "vehicle",
+          "reports": [
+            "RPT-002"
+          ],
+          "degree": 0.1047,
+          "betweenness": 0.0,
+          "pagerank": 0.0095,
+          "community": 3,
+          "weight": 1
+        },
+        {
+          "id": "person::Priya Sharma",
+          "label": "Priya Sharma",
+          "type": "person",
+          "reports": [
+            "RPT-003",
+            "RPT-008"
+          ],
+          "degree": 0.2209,
+          "betweenness": 0.0596,
+          "pagerank": 0.0162,
+          "community": 4,
+          "weight": 1.5
+        },
+        {
+          "id": "person::Rajan Verma",
+          "label": "Rajan Verma",
+          "type": "person",
+          "reports": [
+            "RPT-003",
+            "RPT-010",
+            "RPT-005"
+          ],
+          "degree": 0.3372,
+          "betweenness": 0.0946,
+          "pagerank": 0.0244,
+          "community": 1,
+          "weight": 2.0
+        },
+        {
+          "id": "person::Rajan Verma's",
+          "label": "Rajan Verma's",
+          "type": "person",
+          "reports": [
+            "RPT-003"
+          ],
+          "degree": 0.1163,
+          "betweenness": 0.0,
+          "pagerank": 0.0088,
+          "community": 1,
+          "weight": 1
+        },
+        {
+          "id": "location::Chowk",
+          "label": "Chowk",
+          "type": "location",
+          "reports": [
+            "RPT-003"
+          ],
+          "degree": 0.1163,
+          "betweenness": 0.0,
+          "pagerank": 0.0088,
+          "community": 1,
+          "weight": 1
+        },
+        {
+          "id": "location::Delhi",
+          "label": "Delhi",
+          "type": "location",
+          "reports": [
+            "RPT-003",
+            "RPT-008",
+            "RPT-006",
+            "RPT-005",
+            "RPT-010"
+          ],
+          "degree": 0.5,
+          "betweenness": 0.2897,
+          "pagerank": 0.0386,
+          "community": 5,
+          "weight": 3.0
+        },
+        {
+          "id": "organization::Connaught Place",
+          "label": "Connaught Place",
+          "type": "organization",
+          "reports": [
+            "RPT-003"
+          ],
+          "degree": 0.1163,
+          "betweenness": 0.0,
+          "pagerank": 0.0088,
+          "community": 1,
+          "weight": 1
+        },
+        {
+          "id": "organization::Delhi Police's",
+          "label": "Delhi Police's",
+          "type": "organization",
+          "reports": [
+            "RPT-003"
+          ],
+          "degree": 0.1163,
+          "betweenness": 0.0,
+          "pagerank": 0.0088,
+          "community": 1,
+          "weight": 1
+        },
+        {
+          "id": "organization::Rajan Verma",
+          "label": "Rajan Verma",
+          "type": "organization",
+          "reports": [
+            "RPT-003"
+          ],
+          "degree": 0.1163,
+          "betweenness": 0.0,
+          "pagerank": 0.0088,
+          "community": 1,
+          "weight": 1
+        },
+        {
+          "id": "phone::9711234567",
+          "label": "9711234567",
+          "type": "phone",
+          "reports": [
+            "RPT-003",
+            "RPT-010",
+            "RPT-005"
+          ],
+          "degree": 0.3372,
+          "betweenness": 0.0946,
+          "pagerank": 0.0244,
+          "community": 1,
+          "weight": 2.0
+        },
+        {
+          "id": "vehicle::DL-05-EF-9012",
+          "label": "DL-05-EF-9012",
+          "type": "vehicle",
+          "reports": [
+            "RPT-003"
+          ],
+          "degree": 0.1163,
+          "betweenness": 0.0,
+          "pagerank": 0.0088,
+          "community": 1,
+          "weight": 1
+        },
+        {
+          "id": "person::Anita Jha",
+          "label": "Anita Jha",
+          "type": "person",
+          "reports": [
+            "RPT-004"
+          ],
+          "degree": 0.0814,
+          "betweenness": 0.0,
+          "pagerank": 0.0087,
+          "community": 3,
+          "weight": 1
+        },
+        {
+          "id": "person::Rohit Kumar",
+          "label": "Rohit Kumar",
+          "type": "person",
+          "reports": [
+            "RPT-004"
+          ],
+          "degree": 0.0814,
+          "betweenness": 0.0,
+          "pagerank": 0.0087,
+          "community": 3,
+          "weight": 1
+        },
+        {
+          "id": "location::Jamtara",
+          "label": "Jamtara",
+          "type": "location",
+          "reports": [
+            "RPT-004"
+          ],
+          "degree": 0.0814,
+          "betweenness": 0.0,
+          "pagerank": 0.0087,
+          "community": 3,
+          "weight": 1
+        },
+        {
+          "id": "organization::TechVault Solutions",
+          "label": "TechVault Solutions",
+          "type": "organization",
+          "reports": [
+            "RPT-004"
+          ],
+          "degree": 0.0814,
+          "betweenness": 0.0,
+          "pagerank": 0.0087,
+          "community": 3,
+          "weight": 1
+        },
+        {
+          "id": "phone::9801234567",
+          "label": "9801234567",
+          "type": "phone",
+          "reports": [
+            "RPT-004"
+          ],
+          "degree": 0.0814,
+          "betweenness": 0.0,
+          "pagerank": 0.0087,
+          "community": 3,
+          "weight": 1
+        },
+        {
+          "id": "vehicle::JH-10-GH-3456",
+          "label": "JH-10-GH-3456",
+          "type": "vehicle",
+          "reports": [
+            "RPT-004"
+          ],
+          "degree": 0.0814,
+          "betweenness": 0.0,
+          "pagerank": 0.0087,
+          "community": 3,
+          "weight": 1
+        },
+        {
+          "id": "person::Agra",
+          "label": "Agra",
+          "type": "person",
+          "reports": [
+            "RPT-005"
+          ],
+          "degree": 0.1047,
+          "betweenness": 0.0,
+          "pagerank": 0.0083,
+          "community": 1,
+          "weight": 1
+        },
+        {
+          "id": "person::Farida Shaikh",
+          "label": "Farida Shaikh",
+          "type": "person",
+          "reports": [
+            "RPT-005"
+          ],
+          "degree": 0.1047,
+          "betweenness": 0.0,
+          "pagerank": 0.0083,
+          "community": 1,
+          "weight": 1
+        },
+        {
+          "id": "person::Govind Rao",
+          "label": "Govind Rao",
+          "type": "person",
+          "reports": [
+            "RPT-005"
+          ],
+          "degree": 0.1047,
+          "betweenness": 0.0,
+          "pagerank": 0.0083,
+          "community": 1,
+          "weight": 1
+        },
+        {
+          "id": "location::Taj Ganj",
+          "label": "Taj Ganj",
+          "type": "location",
+          "reports": [
+            "RPT-005"
+          ],
+          "degree": 0.1047,
+          "betweenness": 0.0,
+          "pagerank": 0.0083,
+          "community": 1,
+          "weight": 1
+        },
+        {
+          "id": "organization::Agra",
+          "label": "Agra",
+          "type": "organization",
+          "reports": [
+            "RPT-005"
+          ],
+          "degree": 0.1047,
+          "betweenness": 0.0,
+          "pagerank": 0.0083,
+          "community": 1,
+          "weight": 1
+        },
+        {
+          "id": "phone::9456789012",
+          "label": "9456789012",
+          "type": "phone",
+          "reports": [
+            "RPT-005"
+          ],
+          "degree": 0.1047,
+          "betweenness": 0.0,
+          "pagerank": 0.0083,
+          "community": 1,
+          "weight": 1
+        },
+        {
+          "id": "vehicle::UP-80-IJ-7890",
+          "label": "UP-80-IJ-7890",
+          "type": "vehicle",
+          "reports": [
+            "RPT-005"
+          ],
+          "degree": 0.1047,
+          "betweenness": 0.0,
+          "pagerank": 0.0083,
+          "community": 1,
+          "weight": 1
+        },
+        {
+          "id": "person::9440098765",
+          "label": "9440098765",
+          "type": "person",
+          "reports": [
+            "RPT-006"
+          ],
+          "degree": 0.1163,
+          "betweenness": 0.0,
+          "pagerank": 0.0083,
+          "community": 5,
+          "weight": 1
+        },
+        {
+          "id": "person::Imran Qureshi",
+          "label": "Imran Qureshi",
+          "type": "person",
+          "reports": [
+            "RPT-010",
+            "RPT-006"
+          ],
+          "degree": 0.2326,
+          "betweenness": 0.0033,
+          "pagerank": 0.0172,
+          "community": 5,
+          "weight": 1.5
+        },
+        {
+          "id": "person::Imran Qureshi's",
+          "label": "Imran Qureshi's",
+          "type": "person",
+          "reports": [
+            "RPT-006"
+          ],
+          "degree": 0.1163,
+          "betweenness": 0.0,
+          "pagerank": 0.0083,
+          "community": 5,
+          "weight": 1
+        },
+        {
+          "id": "person::Salim Qureshi",
+          "label": "Salim Qureshi",
+          "type": "person",
+          "reports": [
+            "RPT-006"
+          ],
+          "degree": 0.1163,
+          "betweenness": 0.0,
+          "pagerank": 0.0083,
+          "community": 5,
+          "weight": 1
+        },
+        {
+          "id": "person::Secunderabad",
+          "label": "Secunderabad",
+          "type": "person",
+          "reports": [
+            "RPT-010",
+            "RPT-006"
+          ],
+          "degree": 0.2326,
+          "betweenness": 0.0033,
+          "pagerank": 0.0172,
+          "community": 5,
+          "weight": 1.5
+        },
+        {
+          "id": "location::Secunderabad",
+          "label": "Secunderabad",
+          "type": "location",
+          "reports": [
+            "RPT-006"
+          ],
+          "degree": 0.1163,
+          "betweenness": 0.0,
+          "pagerank": 0.0083,
+          "community": 5,
+          "weight": 1
+        },
+        {
+          "id": "organization::BlueShield Logistics",
+          "label": "BlueShield Logistics",
+          "type": "organization",
+          "reports": [
+            "RPT-010",
+            "RPT-006"
+          ],
+          "degree": 0.2326,
+          "betweenness": 0.0033,
+          "pagerank": 0.0172,
+          "community": 5,
+          "weight": 1.5
+        },
+        {
+          "id": "organization::RDX",
+          "label": "RDX",
+          "type": "organization",
+          "reports": [
+            "RPT-006"
+          ],
+          "degree": 0.1163,
+          "betweenness": 0.0,
+          "pagerank": 0.0083,
+          "community": 5,
+          "weight": 1
+        },
+        {
+          "id": "phone::9440098765",
+          "label": "9440098765",
+          "type": "phone",
+          "reports": [
+            "RPT-010",
+            "RPT-006"
+          ],
+          "degree": 0.2326,
+          "betweenness": 0.0033,
+          "pagerank": 0.0172,
+          "community": 5,
+          "weight": 1.5
+        },
+        {
+          "id": "vehicle::TS-09-KL-2345",
+          "label": "TS-09-KL-2345",
+          "type": "vehicle",
+          "reports": [
+            "RPT-006"
+          ],
+          "degree": 0.1163,
+          "betweenness": 0.0,
+          "pagerank": 0.0083,
+          "community": 5,
+          "weight": 1
+        },
+        {
+          "id": "person::Koyambedu",
+          "label": "Koyambedu",
+          "type": "person",
+          "reports": [
+            "RPT-007"
+          ],
+          "degree": 0.1279,
+          "betweenness": 0.0,
+          "pagerank": 0.0112,
+          "community": 0,
+          "weight": 1
+        },
+        {
+          "id": "person::Meena Rajan",
+          "label": "Meena Rajan",
+          "type": "person",
+          "reports": [
+            "RPT-007"
+          ],
+          "degree": 0.1279,
+          "betweenness": 0.0,
+          "pagerank": 0.0112,
+          "community": 0,
+          "weight": 1
+        },
+        {
+          "id": "person::Selvam Krishnan",
+          "label": "Selvam Krishnan",
+          "type": "person",
+          "reports": [
+            "RPT-007"
+          ],
+          "degree": 0.1279,
+          "betweenness": 0.0,
+          "pagerank": 0.0112,
+          "community": 0,
+          "weight": 1
+        },
+        {
+          "id": "location::Chennai Port",
+          "label": "Chennai Port",
+          "type": "location",
+          "reports": [
+            "RPT-007"
+          ],
+          "degree": 0.1279,
+          "betweenness": 0.0,
+          "pagerank": 0.0112,
+          "community": 0,
+          "weight": 1
+        },
+        {
+          "id": "location::Krishnan",
+          "label": "Krishnan",
+          "type": "location",
+          "reports": [
+            "RPT-007"
+          ],
+          "degree": 0.1279,
+          "betweenness": 0.0,
+          "pagerank": 0.0112,
+          "community": 0,
+          "weight": 1
+        },
+        {
+          "id": "location::Mumbai",
+          "label": "Mumbai",
+          "type": "location",
+          "reports": [
+            "RPT-007"
+          ],
+          "degree": 0.1279,
+          "betweenness": 0.0,
+          "pagerank": 0.0112,
+          "community": 0,
+          "weight": 1
+        },
+        {
+          "id": "organization::Chennai Customs",
+          "label": "Chennai Customs",
+          "type": "organization",
+          "reports": [
+            "RPT-007"
+          ],
+          "degree": 0.1279,
+          "betweenness": 0.0,
+          "pagerank": 0.0112,
+          "community": 0,
+          "weight": 1
+        },
+        {
+          "id": "organization::SunriseExport Pvt Ltd",
+          "label": "SunriseExport Pvt Ltd",
+          "type": "organization",
+          "reports": [
+            "RPT-007"
+          ],
+          "degree": 0.1279,
+          "betweenness": 0.0,
+          "pagerank": 0.0112,
+          "community": 0,
+          "weight": 1
+        },
+        {
+          "id": "organization::SunriseExport Pvt Ltd.",
+          "label": "SunriseExport Pvt Ltd.",
+          "type": "organization",
+          "reports": [
+            "RPT-007"
+          ],
+          "degree": 0.1279,
+          "betweenness": 0.0,
+          "pagerank": 0.0112,
+          "community": 0,
+          "weight": 1
+        },
+        {
+          "id": "phone::9444056789",
+          "label": "9444056789",
+          "type": "phone",
+          "reports": [
+            "RPT-007"
+          ],
+          "degree": 0.1279,
+          "betweenness": 0.0,
+          "pagerank": 0.0112,
+          "community": 0,
+          "weight": 1
+        },
+        {
+          "id": "vehicle::TN-09-MN-6789",
+          "label": "TN-09-MN-6789",
+          "type": "vehicle",
+          "reports": [
+            "RPT-007"
+          ],
+          "degree": 0.1279,
+          "betweenness": 0.0,
+          "pagerank": 0.0112,
+          "community": 0,
+          "weight": 1
+        },
+        {
+          "id": "person::Vivek Shetty",
+          "label": "Vivek Shetty",
+          "type": "person",
+          "reports": [
+            "RPT-008"
+          ],
+          "degree": 0.1163,
+          "betweenness": 0.0,
+          "pagerank": 0.0091,
+          "community": 4,
+          "weight": 1
+        },
+        {
+          "id": "location::Bengaluru",
+          "label": "Bengaluru",
+          "type": "location",
+          "reports": [
+            "RPT-008"
+          ],
+          "degree": 0.1163,
+          "betweenness": 0.0,
+          "pagerank": 0.0091,
+          "community": 4,
+          "weight": 1
+        },
+        {
+          "id": "location::Whitefield",
+          "label": "Whitefield",
+          "type": "location",
+          "reports": [
+            "RPT-008"
+          ],
+          "degree": 0.1163,
+          "betweenness": 0.0,
+          "pagerank": 0.0091,
+          "community": 4,
+          "weight": 1
+        },
+        {
+          "id": "organization::Deepa Nair",
+          "label": "Deepa Nair",
+          "type": "organization",
+          "reports": [
+            "RPT-008"
+          ],
+          "degree": 0.1163,
+          "betweenness": 0.0,
+          "pagerank": 0.0091,
+          "community": 4,
+          "weight": 1
+        },
+        {
+          "id": "organization::Deepa Nair's",
+          "label": "Deepa Nair's",
+          "type": "organization",
+          "reports": [
+            "RPT-008"
+          ],
+          "degree": 0.1163,
+          "betweenness": 0.0,
+          "pagerank": 0.0091,
+          "community": 4,
+          "weight": 1
+        },
+        {
+          "id": "organization::Karnataka CID",
+          "label": "Karnataka CID",
+          "type": "organization",
+          "reports": [
+            "RPT-008"
+          ],
+          "degree": 0.1163,
+          "betweenness": 0.0,
+          "pagerank": 0.0091,
+          "community": 4,
+          "weight": 1
+        },
+        {
+          "id": "organization::PrimeLand Ventures",
+          "label": "PrimeLand Ventures",
+          "type": "organization",
+          "reports": [
+            "RPT-010",
+            "RPT-008"
+          ],
+          "degree": 0.2674,
+          "betweenness": 0.0142,
+          "pagerank": 0.018,
+          "community": 4,
+          "weight": 1.5
+        },
+        {
+          "id": "phone::9845067890",
+          "label": "9845067890",
+          "type": "phone",
+          "reports": [
+            "RPT-008"
+          ],
+          "degree": 0.1163,
+          "betweenness": 0.0,
+          "pagerank": 0.0091,
+          "community": 4,
+          "weight": 1
+        },
+        {
+          "id": "vehicle::KA-03-OP-4567",
+          "label": "KA-03-OP-4567",
+          "type": "vehicle",
+          "reports": [
+            "RPT-008"
+          ],
+          "degree": 0.1163,
+          "betweenness": 0.0,
+          "pagerank": 0.0091,
+          "community": 4,
+          "weight": 1
+        },
+        {
+          "id": "person::Habibur Rahman",
+          "label": "Habibur Rahman",
+          "type": "person",
+          "reports": [
+            "RPT-009"
+          ],
+          "degree": 0.1279,
+          "betweenness": 0.0,
+          "pagerank": 0.0108,
+          "community": 3,
+          "weight": 1
+        },
+        {
+          "id": "person::Habibur Rahman's",
+          "label": "Habibur Rahman's",
+          "type": "person",
+          "reports": [
+            "RPT-009"
+          ],
+          "degree": 0.1279,
+          "betweenness": 0.0,
+          "pagerank": 0.0108,
+          "community": 3,
+          "weight": 1
+        },
+        {
+          "id": "person::Kolkata",
+          "label": "Kolkata",
+          "type": "person",
+          "reports": [
+            "RPT-009"
+          ],
+          "degree": 0.1279,
+          "betweenness": 0.0,
+          "pagerank": 0.0108,
+          "community": 3,
+          "weight": 1
+        },
+        {
+          "id": "person::Nasreen Bibi",
+          "label": "Nasreen Bibi",
+          "type": "person",
+          "reports": [
+            "RPT-009"
+          ],
+          "degree": 0.1279,
+          "betweenness": 0.0,
+          "pagerank": 0.0108,
+          "community": 3,
+          "weight": 1
+        },
+        {
+          "id": "person::Vehicle WB-06-QR-8901",
+          "label": "Vehicle WB-06-QR-8901",
+          "type": "person",
+          "reports": [
+            "RPT-009"
+          ],
+          "degree": 0.1279,
+          "betweenness": 0.0,
+          "pagerank": 0.0108,
+          "community": 3,
+          "weight": 1
+        },
+        {
+          "id": "location::Metiabruz",
+          "label": "Metiabruz",
+          "type": "location",
+          "reports": [
+            "RPT-009"
+          ],
+          "degree": 0.1279,
+          "betweenness": 0.0,
+          "pagerank": 0.0108,
+          "community": 3,
+          "weight": 1
+        },
+        {
+          "id": "location::Nepal",
+          "label": "Nepal",
+          "type": "location",
+          "reports": [
+            "RPT-009"
+          ],
+          "degree": 0.1279,
+          "betweenness": 0.0,
+          "pagerank": 0.0108,
+          "community": 3,
+          "weight": 1
+        },
+        {
+          "id": "phone::9831067890",
+          "label": "9831067890",
+          "type": "phone",
+          "reports": [
+            "RPT-009"
+          ],
+          "degree": 0.1279,
+          "betweenness": 0.0,
+          "pagerank": 0.0108,
+          "community": 3,
+          "weight": 1
+        },
+        {
+          "id": "vehicle::WB-06-QR-8901",
+          "label": "WB-06-QR-8901",
+          "type": "vehicle",
+          "reports": [
+            "RPT-009"
+          ],
+          "degree": 0.1279,
+          "betweenness": 0.0,
+          "pagerank": 0.0108,
+          "community": 3,
+          "weight": 1
+        },
+        {
+          "id": "person::Arjun Mehta's",
+          "label": "Arjun Mehta's",
+          "type": "person",
+          "reports": [
+            "RPT-010"
+          ],
+          "degree": 0.1628,
+          "betweenness": 0.0,
+          "pagerank": 0.0105,
+          "community": 5,
+          "weight": 1
+        },
+        {
+          "id": "location::Hawala/Delhi",
+          "label": "Hawala/Delhi",
+          "type": "location",
+          "reports": [
+            "RPT-010"
+          ],
+          "degree": 0.1628,
+          "betweenness": 0.0,
+          "pagerank": 0.0105,
+          "community": 5,
+          "weight": 1
+        },
+        {
+          "id": "location::Hyderabad",
+          "label": "Hyderabad",
+          "type": "location",
+          "reports": [
+            "RPT-010"
+          ],
+          "degree": 0.1628,
+          "betweenness": 0.0,
+          "pagerank": 0.0105,
+          "community": 5,
+          "weight": 1
+        },
+        {
+          "id": "organization::Drugs/Chennai",
+          "label": "Drugs/Chennai",
+          "type": "organization",
+          "reports": [
+            "RPT-010"
+          ],
+          "degree": 0.1628,
+          "betweenness": 0.0,
+          "pagerank": 0.0105,
+          "community": 5,
+          "weight": 1
+        },
+        {
+          "id": "organization::Explosives/Hyderabad",
+          "label": "Explosives/Hyderabad",
+          "type": "organization",
+          "reports": [
+            "RPT-010"
+          ],
+          "degree": 0.1628,
+          "betweenness": 0.0,
+          "pagerank": 0.0105,
+          "community": 5,
+          "weight": 1
+        },
+        {
+          "id": "organization::RAW",
+          "label": "RAW",
+          "type": "organization",
+          "reports": [
+            "RPT-010"
+          ],
+          "degree": 0.1628,
+          "betweenness": 0.0,
+          "pagerank": 0.0105,
+          "community": 5,
+          "weight": 1
+        },
+        {
+          "id": "organization::Trafficking/Agra",
+          "label": "Trafficking/Agra",
+          "type": "organization",
+          "reports": [
+            "RPT-010"
+          ],
+          "degree": 0.1628,
+          "betweenness": 0.0,
+          "pagerank": 0.0105,
+          "community": 5,
+          "weight": 1
+        }
+      ],
+      "links": [
+        {
+          "source": "person::Arjun Mehta",
+          "target": "person::Kabir Ansari",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "person::Arjun Mehta",
+          "target": "person::Pillai",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "person::Arjun Mehta",
+          "target": "person::Suresh Pillai",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "person::Arjun Mehta",
+          "target": "organization::Red Crescent Syndicate",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "person::Arjun Mehta",
+          "target": "organization::the Red Crescent Syndicate",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "person::Arjun Mehta",
+          "target": "phone::9820045678",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "person::Arjun Mehta",
+          "target": "phone::9867123456",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "person::Arjun Mehta",
+          "target": "vehicle::MH-02-AB-1234",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "person::Arjun Mehta",
+          "target": "person::Koyambedu",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Arjun Mehta",
+          "target": "person::Meena Rajan",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Arjun Mehta",
+          "target": "person::Selvam Krishnan",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Arjun Mehta",
+          "target": "location::Chennai Port",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Arjun Mehta",
+          "target": "location::Krishnan",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Arjun Mehta",
+          "target": "location::Mumbai",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Arjun Mehta",
+          "target": "organization::Chennai Customs",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Arjun Mehta",
+          "target": "organization::SunriseExport Pvt Ltd",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Arjun Mehta",
+          "target": "organization::SunriseExport Pvt Ltd.",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Arjun Mehta",
+          "target": "phone::9444056789",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Arjun Mehta",
+          "target": "vehicle::TN-09-MN-6789",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Kabir Ansari",
+          "target": "person::Pillai",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "person::Kabir Ansari",
+          "target": "person::Suresh Pillai",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "person::Kabir Ansari",
+          "target": "organization::Red Crescent Syndicate",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "person::Kabir Ansari",
+          "target": "organization::the Red Crescent Syndicate",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "person::Kabir Ansari",
+          "target": "phone::9820045678",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "person::Kabir Ansari",
+          "target": "phone::9867123456",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "person::Kabir Ansari",
+          "target": "vehicle::MH-02-AB-1234",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "person::Kabir Ansari",
+          "target": "person::Priya Sharma",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Kabir Ansari",
+          "target": "person::Rajan Verma",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Kabir Ansari",
+          "target": "person::Rajan Verma's",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Kabir Ansari",
+          "target": "location::Chowk",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Kabir Ansari",
+          "target": "location::Delhi",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Kabir Ansari",
+          "target": "organization::Connaught Place",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Kabir Ansari",
+          "target": "organization::Delhi Police's",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Kabir Ansari",
+          "target": "organization::Rajan Verma",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Kabir Ansari",
+          "target": "phone::9711234567",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Kabir Ansari",
+          "target": "vehicle::DL-05-EF-9012",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Pillai",
+          "target": "person::Suresh Pillai",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "person::Pillai",
+          "target": "organization::Red Crescent Syndicate",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "person::Pillai",
+          "target": "organization::the Red Crescent Syndicate",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "person::Pillai",
+          "target": "phone::9820045678",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "person::Pillai",
+          "target": "phone::9867123456",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "person::Pillai",
+          "target": "vehicle::MH-02-AB-1234",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "person::Suresh Pillai",
+          "target": "organization::Red Crescent Syndicate",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "person::Suresh Pillai",
+          "target": "organization::the Red Crescent Syndicate",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "person::Suresh Pillai",
+          "target": "phone::9820045678",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "person::Suresh Pillai",
+          "target": "phone::9867123456",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "person::Suresh Pillai",
+          "target": "vehicle::MH-02-AB-1234",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "organization::Red Crescent Syndicate",
+          "target": "organization::the Red Crescent Syndicate",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "organization::Red Crescent Syndicate",
+          "target": "phone::9820045678",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "organization::Red Crescent Syndicate",
+          "target": "phone::9867123456",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "organization::Red Crescent Syndicate",
+          "target": "vehicle::MH-02-AB-1234",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "organization::Red Crescent Syndicate",
+          "target": "person::Devraj Singh",
+          "weight": 2,
+          "reports": [
+            "RPT-009",
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "organization::Red Crescent Syndicate",
+          "target": "person::Manoj Tiwari",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "organization::Red Crescent Syndicate",
+          "target": "location::Bihar",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "organization::Red Crescent Syndicate",
+          "target": "organization::Chacha",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "organization::Red Crescent Syndicate",
+          "target": "organization::Patna",
+          "weight": 2,
+          "reports": [
+            "RPT-009",
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "organization::Red Crescent Syndicate",
+          "target": "organization::Phulwari Sharif",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "organization::Red Crescent Syndicate",
+          "target": "organization::SIM",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "organization::Red Crescent Syndicate",
+          "target": "phone::9334567890",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "organization::Red Crescent Syndicate",
+          "target": "vehicle::BR-01-CD-5678",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "organization::Red Crescent Syndicate",
+          "target": "person::Habibur Rahman",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "organization::Red Crescent Syndicate",
+          "target": "person::Habibur Rahman's",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "organization::Red Crescent Syndicate",
+          "target": "person::Kolkata",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "organization::Red Crescent Syndicate",
+          "target": "person::Nasreen Bibi",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "organization::Red Crescent Syndicate",
+          "target": "person::Vehicle WB-06-QR-8901",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "organization::Red Crescent Syndicate",
+          "target": "location::Metiabruz",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "organization::Red Crescent Syndicate",
+          "target": "location::Nepal",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "organization::Red Crescent Syndicate",
+          "target": "phone::9831067890",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "organization::Red Crescent Syndicate",
+          "target": "vehicle::WB-06-QR-8901",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "organization::the Red Crescent Syndicate",
+          "target": "phone::9820045678",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "organization::the Red Crescent Syndicate",
+          "target": "phone::9867123456",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "organization::the Red Crescent Syndicate",
+          "target": "vehicle::MH-02-AB-1234",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "phone::9820045678",
+          "target": "phone::9867123456",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "phone::9820045678",
+          "target": "vehicle::MH-02-AB-1234",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "phone::9867123456",
+          "target": "vehicle::MH-02-AB-1234",
+          "weight": 1,
+          "reports": [
+            "RPT-001"
+          ]
+        },
+        {
+          "source": "person::Devraj Singh",
+          "target": "person::Manoj Tiwari",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "person::Devraj Singh",
+          "target": "location::Bihar",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "person::Devraj Singh",
+          "target": "organization::Chacha",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "person::Devraj Singh",
+          "target": "organization::Patna",
+          "weight": 2,
+          "reports": [
+            "RPT-009",
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "person::Devraj Singh",
+          "target": "organization::Phulwari Sharif",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "person::Devraj Singh",
+          "target": "organization::SIM",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "person::Devraj Singh",
+          "target": "phone::9334567890",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "person::Devraj Singh",
+          "target": "vehicle::BR-01-CD-5678",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "person::Devraj Singh",
+          "target": "person::Habibur Rahman",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Devraj Singh",
+          "target": "person::Habibur Rahman's",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Devraj Singh",
+          "target": "person::Kolkata",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Devraj Singh",
+          "target": "person::Nasreen Bibi",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Devraj Singh",
+          "target": "person::Vehicle WB-06-QR-8901",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Devraj Singh",
+          "target": "location::Metiabruz",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Devraj Singh",
+          "target": "location::Nepal",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Devraj Singh",
+          "target": "phone::9831067890",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Devraj Singh",
+          "target": "vehicle::WB-06-QR-8901",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Manoj Tiwari",
+          "target": "location::Bihar",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "person::Manoj Tiwari",
+          "target": "organization::Chacha",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "person::Manoj Tiwari",
+          "target": "organization::Patna",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "person::Manoj Tiwari",
+          "target": "organization::Phulwari Sharif",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "person::Manoj Tiwari",
+          "target": "organization::SIM",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "person::Manoj Tiwari",
+          "target": "phone::9334567890",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "person::Manoj Tiwari",
+          "target": "vehicle::BR-01-CD-5678",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "location::Bihar",
+          "target": "organization::Chacha",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "location::Bihar",
+          "target": "organization::Patna",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "location::Bihar",
+          "target": "organization::Phulwari Sharif",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "location::Bihar",
+          "target": "organization::SIM",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "location::Bihar",
+          "target": "phone::9334567890",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "location::Bihar",
+          "target": "vehicle::BR-01-CD-5678",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "organization::Chacha",
+          "target": "organization::Patna",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "organization::Chacha",
+          "target": "organization::Phulwari Sharif",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "organization::Chacha",
+          "target": "organization::SIM",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "organization::Chacha",
+          "target": "phone::9334567890",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "organization::Chacha",
+          "target": "vehicle::BR-01-CD-5678",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "organization::Patna",
+          "target": "organization::Phulwari Sharif",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "organization::Patna",
+          "target": "organization::SIM",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "organization::Patna",
+          "target": "phone::9334567890",
+          "weight": 2,
+          "reports": [
+            "RPT-004",
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "organization::Patna",
+          "target": "vehicle::BR-01-CD-5678",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "organization::Patna",
+          "target": "person::Anita Jha",
+          "weight": 1,
+          "reports": [
+            "RPT-004"
+          ]
+        },
+        {
+          "source": "organization::Patna",
+          "target": "person::Rohit Kumar",
+          "weight": 1,
+          "reports": [
+            "RPT-004"
+          ]
+        },
+        {
+          "source": "organization::Patna",
+          "target": "location::Jamtara",
+          "weight": 1,
+          "reports": [
+            "RPT-004"
+          ]
+        },
+        {
+          "source": "organization::Patna",
+          "target": "organization::TechVault Solutions",
+          "weight": 1,
+          "reports": [
+            "RPT-004"
+          ]
+        },
+        {
+          "source": "organization::Patna",
+          "target": "phone::9801234567",
+          "weight": 1,
+          "reports": [
+            "RPT-004"
+          ]
+        },
+        {
+          "source": "organization::Patna",
+          "target": "vehicle::JH-10-GH-3456",
+          "weight": 1,
+          "reports": [
+            "RPT-004"
+          ]
+        },
+        {
+          "source": "organization::Patna",
+          "target": "person::Habibur Rahman",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "organization::Patna",
+          "target": "person::Habibur Rahman's",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "organization::Patna",
+          "target": "person::Kolkata",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "organization::Patna",
+          "target": "person::Nasreen Bibi",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "organization::Patna",
+          "target": "person::Vehicle WB-06-QR-8901",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "organization::Patna",
+          "target": "location::Metiabruz",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "organization::Patna",
+          "target": "location::Nepal",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "organization::Patna",
+          "target": "phone::9831067890",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "organization::Patna",
+          "target": "vehicle::WB-06-QR-8901",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "organization::Phulwari Sharif",
+          "target": "organization::SIM",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "organization::Phulwari Sharif",
+          "target": "phone::9334567890",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "organization::Phulwari Sharif",
+          "target": "vehicle::BR-01-CD-5678",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "organization::SIM",
+          "target": "phone::9334567890",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "organization::SIM",
+          "target": "vehicle::BR-01-CD-5678",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "phone::9334567890",
+          "target": "vehicle::BR-01-CD-5678",
+          "weight": 1,
+          "reports": [
+            "RPT-002"
+          ]
+        },
+        {
+          "source": "phone::9334567890",
+          "target": "person::Anita Jha",
+          "weight": 1,
+          "reports": [
+            "RPT-004"
+          ]
+        },
+        {
+          "source": "phone::9334567890",
+          "target": "person::Rohit Kumar",
+          "weight": 1,
+          "reports": [
+            "RPT-004"
+          ]
+        },
+        {
+          "source": "phone::9334567890",
+          "target": "location::Jamtara",
+          "weight": 1,
+          "reports": [
+            "RPT-004"
+          ]
+        },
+        {
+          "source": "phone::9334567890",
+          "target": "organization::TechVault Solutions",
+          "weight": 1,
+          "reports": [
+            "RPT-004"
+          ]
+        },
+        {
+          "source": "phone::9334567890",
+          "target": "phone::9801234567",
+          "weight": 1,
+          "reports": [
+            "RPT-004"
+          ]
+        },
+        {
+          "source": "phone::9334567890",
+          "target": "vehicle::JH-10-GH-3456",
+          "weight": 1,
+          "reports": [
+            "RPT-004"
+          ]
+        },
+        {
+          "source": "person::Priya Sharma",
+          "target": "person::Rajan Verma",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Priya Sharma",
+          "target": "person::Rajan Verma's",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Priya Sharma",
+          "target": "location::Chowk",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Priya Sharma",
+          "target": "location::Delhi",
+          "weight": 2,
+          "reports": [
+            "RPT-003",
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "person::Priya Sharma",
+          "target": "organization::Connaught Place",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Priya Sharma",
+          "target": "organization::Delhi Police's",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Priya Sharma",
+          "target": "organization::Rajan Verma",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Priya Sharma",
+          "target": "phone::9711234567",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Priya Sharma",
+          "target": "vehicle::DL-05-EF-9012",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Priya Sharma",
+          "target": "person::Vivek Shetty",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "person::Priya Sharma",
+          "target": "location::Bengaluru",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "person::Priya Sharma",
+          "target": "location::Whitefield",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "person::Priya Sharma",
+          "target": "organization::Deepa Nair",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "person::Priya Sharma",
+          "target": "organization::Deepa Nair's",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "person::Priya Sharma",
+          "target": "organization::Karnataka CID",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "person::Priya Sharma",
+          "target": "organization::PrimeLand Ventures",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "person::Priya Sharma",
+          "target": "phone::9845067890",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "person::Priya Sharma",
+          "target": "vehicle::KA-03-OP-4567",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma",
+          "target": "person::Rajan Verma's",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma",
+          "target": "location::Chowk",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma",
+          "target": "location::Delhi",
+          "weight": 3,
+          "reports": [
+            "RPT-003",
+            "RPT-010",
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma",
+          "target": "organization::Connaught Place",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma",
+          "target": "organization::Delhi Police's",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma",
+          "target": "organization::Rajan Verma",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma",
+          "target": "phone::9711234567",
+          "weight": 3,
+          "reports": [
+            "RPT-003",
+            "RPT-010",
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma",
+          "target": "vehicle::DL-05-EF-9012",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma",
+          "target": "person::Agra",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma",
+          "target": "person::Farida Shaikh",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma",
+          "target": "person::Govind Rao",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma",
+          "target": "location::Taj Ganj",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma",
+          "target": "organization::Agra",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma",
+          "target": "phone::9456789012",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma",
+          "target": "vehicle::UP-80-IJ-7890",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma",
+          "target": "person::Arjun Mehta's",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma",
+          "target": "person::Imran Qureshi",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma",
+          "target": "person::Secunderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma",
+          "target": "location::Hawala/Delhi",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma",
+          "target": "location::Hyderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma",
+          "target": "organization::BlueShield Logistics",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma",
+          "target": "organization::Drugs/Chennai",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma",
+          "target": "organization::Explosives/Hyderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma",
+          "target": "organization::PrimeLand Ventures",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma",
+          "target": "organization::RAW",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma",
+          "target": "organization::Trafficking/Agra",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma",
+          "target": "phone::9440098765",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma's",
+          "target": "location::Chowk",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma's",
+          "target": "location::Delhi",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma's",
+          "target": "organization::Connaught Place",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma's",
+          "target": "organization::Delhi Police's",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma's",
+          "target": "organization::Rajan Verma",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma's",
+          "target": "phone::9711234567",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "person::Rajan Verma's",
+          "target": "vehicle::DL-05-EF-9012",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "location::Chowk",
+          "target": "location::Delhi",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "location::Chowk",
+          "target": "organization::Connaught Place",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "location::Chowk",
+          "target": "organization::Delhi Police's",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "location::Chowk",
+          "target": "organization::Rajan Verma",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "location::Chowk",
+          "target": "phone::9711234567",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "location::Chowk",
+          "target": "vehicle::DL-05-EF-9012",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "organization::Connaught Place",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "organization::Delhi Police's",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "organization::Rajan Verma",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "phone::9711234567",
+          "weight": 3,
+          "reports": [
+            "RPT-003",
+            "RPT-010",
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "vehicle::DL-05-EF-9012",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "person::Agra",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "person::Farida Shaikh",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "person::Govind Rao",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "location::Taj Ganj",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "organization::Agra",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "phone::9456789012",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "vehicle::UP-80-IJ-7890",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "person::9440098765",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "person::Imran Qureshi",
+          "weight": 2,
+          "reports": [
+            "RPT-010",
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "person::Imran Qureshi's",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "person::Salim Qureshi",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "person::Secunderabad",
+          "weight": 2,
+          "reports": [
+            "RPT-010",
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "location::Secunderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "organization::BlueShield Logistics",
+          "weight": 2,
+          "reports": [
+            "RPT-010",
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "organization::RDX",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "phone::9440098765",
+          "weight": 2,
+          "reports": [
+            "RPT-010",
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "vehicle::TS-09-KL-2345",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "person::Vivek Shetty",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "location::Bengaluru",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "location::Whitefield",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "organization::Deepa Nair",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "organization::Deepa Nair's",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "organization::Karnataka CID",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "organization::PrimeLand Ventures",
+          "weight": 2,
+          "reports": [
+            "RPT-010",
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "phone::9845067890",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "vehicle::KA-03-OP-4567",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "person::Arjun Mehta's",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "location::Hawala/Delhi",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "location::Hyderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "organization::Drugs/Chennai",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "organization::Explosives/Hyderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "organization::RAW",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "location::Delhi",
+          "target": "organization::Trafficking/Agra",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "organization::Connaught Place",
+          "target": "organization::Delhi Police's",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "organization::Connaught Place",
+          "target": "organization::Rajan Verma",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "organization::Connaught Place",
+          "target": "phone::9711234567",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "organization::Connaught Place",
+          "target": "vehicle::DL-05-EF-9012",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "organization::Delhi Police's",
+          "target": "organization::Rajan Verma",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "organization::Delhi Police's",
+          "target": "phone::9711234567",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "organization::Delhi Police's",
+          "target": "vehicle::DL-05-EF-9012",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "organization::Rajan Verma",
+          "target": "phone::9711234567",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "organization::Rajan Verma",
+          "target": "vehicle::DL-05-EF-9012",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "phone::9711234567",
+          "target": "vehicle::DL-05-EF-9012",
+          "weight": 1,
+          "reports": [
+            "RPT-003"
+          ]
+        },
+        {
+          "source": "phone::9711234567",
+          "target": "person::Agra",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "phone::9711234567",
+          "target": "person::Farida Shaikh",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "phone::9711234567",
+          "target": "person::Govind Rao",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "phone::9711234567",
+          "target": "location::Taj Ganj",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "phone::9711234567",
+          "target": "organization::Agra",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "phone::9711234567",
+          "target": "phone::9456789012",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "phone::9711234567",
+          "target": "vehicle::UP-80-IJ-7890",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "phone::9711234567",
+          "target": "person::Arjun Mehta's",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "phone::9711234567",
+          "target": "person::Imran Qureshi",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "phone::9711234567",
+          "target": "person::Secunderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "phone::9711234567",
+          "target": "location::Hawala/Delhi",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "phone::9711234567",
+          "target": "location::Hyderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "phone::9711234567",
+          "target": "organization::BlueShield Logistics",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "phone::9711234567",
+          "target": "organization::Drugs/Chennai",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "phone::9711234567",
+          "target": "organization::Explosives/Hyderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "phone::9711234567",
+          "target": "organization::PrimeLand Ventures",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "phone::9711234567",
+          "target": "organization::RAW",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "phone::9711234567",
+          "target": "organization::Trafficking/Agra",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "phone::9711234567",
+          "target": "phone::9440098765",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Anita Jha",
+          "target": "person::Rohit Kumar",
+          "weight": 1,
+          "reports": [
+            "RPT-004"
+          ]
+        },
+        {
+          "source": "person::Anita Jha",
+          "target": "location::Jamtara",
+          "weight": 1,
+          "reports": [
+            "RPT-004"
+          ]
+        },
+        {
+          "source": "person::Anita Jha",
+          "target": "organization::TechVault Solutions",
+          "weight": 1,
+          "reports": [
+            "RPT-004"
+          ]
+        },
+        {
+          "source": "person::Anita Jha",
+          "target": "phone::9801234567",
+          "weight": 1,
+          "reports": [
+            "RPT-004"
+          ]
+        },
+        {
+          "source": "person::Anita Jha",
+          "target": "vehicle::JH-10-GH-3456",
+          "weight": 1,
+          "reports": [
+            "RPT-004"
+          ]
+        },
+        {
+          "source": "person::Rohit Kumar",
+          "target": "location::Jamtara",
+          "weight": 1,
+          "reports": [
+            "RPT-004"
+          ]
+        },
+        {
+          "source": "person::Rohit Kumar",
+          "target": "organization::TechVault Solutions",
+          "weight": 1,
+          "reports": [
+            "RPT-004"
+          ]
+        },
+        {
+          "source": "person::Rohit Kumar",
+          "target": "phone::9801234567",
+          "weight": 1,
+          "reports": [
+            "RPT-004"
+          ]
+        },
+        {
+          "source": "person::Rohit Kumar",
+          "target": "vehicle::JH-10-GH-3456",
+          "weight": 1,
+          "reports": [
+            "RPT-004"
+          ]
+        },
+        {
+          "source": "location::Jamtara",
+          "target": "organization::TechVault Solutions",
+          "weight": 1,
+          "reports": [
+            "RPT-004"
+          ]
+        },
+        {
+          "source": "location::Jamtara",
+          "target": "phone::9801234567",
+          "weight": 1,
+          "reports": [
+            "RPT-004"
+          ]
+        },
+        {
+          "source": "location::Jamtara",
+          "target": "vehicle::JH-10-GH-3456",
+          "weight": 1,
+          "reports": [
+            "RPT-004"
+          ]
+        },
+        {
+          "source": "organization::TechVault Solutions",
+          "target": "phone::9801234567",
+          "weight": 1,
+          "reports": [
+            "RPT-004"
+          ]
+        },
+        {
+          "source": "organization::TechVault Solutions",
+          "target": "vehicle::JH-10-GH-3456",
+          "weight": 1,
+          "reports": [
+            "RPT-004"
+          ]
+        },
+        {
+          "source": "phone::9801234567",
+          "target": "vehicle::JH-10-GH-3456",
+          "weight": 1,
+          "reports": [
+            "RPT-004"
+          ]
+        },
+        {
+          "source": "person::Agra",
+          "target": "person::Farida Shaikh",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "person::Agra",
+          "target": "person::Govind Rao",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "person::Agra",
+          "target": "location::Taj Ganj",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "person::Agra",
+          "target": "organization::Agra",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "person::Agra",
+          "target": "phone::9456789012",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "person::Agra",
+          "target": "vehicle::UP-80-IJ-7890",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "person::Farida Shaikh",
+          "target": "person::Govind Rao",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "person::Farida Shaikh",
+          "target": "location::Taj Ganj",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "person::Farida Shaikh",
+          "target": "organization::Agra",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "person::Farida Shaikh",
+          "target": "phone::9456789012",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "person::Farida Shaikh",
+          "target": "vehicle::UP-80-IJ-7890",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "person::Govind Rao",
+          "target": "location::Taj Ganj",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "person::Govind Rao",
+          "target": "organization::Agra",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "person::Govind Rao",
+          "target": "phone::9456789012",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "person::Govind Rao",
+          "target": "vehicle::UP-80-IJ-7890",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "location::Taj Ganj",
+          "target": "organization::Agra",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "location::Taj Ganj",
+          "target": "phone::9456789012",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "location::Taj Ganj",
+          "target": "vehicle::UP-80-IJ-7890",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "organization::Agra",
+          "target": "phone::9456789012",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "organization::Agra",
+          "target": "vehicle::UP-80-IJ-7890",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "phone::9456789012",
+          "target": "vehicle::UP-80-IJ-7890",
+          "weight": 1,
+          "reports": [
+            "RPT-005"
+          ]
+        },
+        {
+          "source": "person::9440098765",
+          "target": "person::Imran Qureshi",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::9440098765",
+          "target": "person::Imran Qureshi's",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::9440098765",
+          "target": "person::Salim Qureshi",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::9440098765",
+          "target": "person::Secunderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::9440098765",
+          "target": "location::Secunderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::9440098765",
+          "target": "organization::BlueShield Logistics",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::9440098765",
+          "target": "organization::RDX",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::9440098765",
+          "target": "phone::9440098765",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::9440098765",
+          "target": "vehicle::TS-09-KL-2345",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::Imran Qureshi",
+          "target": "person::Imran Qureshi's",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::Imran Qureshi",
+          "target": "person::Salim Qureshi",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::Imran Qureshi",
+          "target": "person::Secunderabad",
+          "weight": 2,
+          "reports": [
+            "RPT-010",
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::Imran Qureshi",
+          "target": "location::Secunderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::Imran Qureshi",
+          "target": "organization::BlueShield Logistics",
+          "weight": 2,
+          "reports": [
+            "RPT-010",
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::Imran Qureshi",
+          "target": "organization::RDX",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::Imran Qureshi",
+          "target": "phone::9440098765",
+          "weight": 2,
+          "reports": [
+            "RPT-010",
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::Imran Qureshi",
+          "target": "vehicle::TS-09-KL-2345",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::Imran Qureshi",
+          "target": "person::Arjun Mehta's",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Imran Qureshi",
+          "target": "location::Hawala/Delhi",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Imran Qureshi",
+          "target": "location::Hyderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Imran Qureshi",
+          "target": "organization::Drugs/Chennai",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Imran Qureshi",
+          "target": "organization::Explosives/Hyderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Imran Qureshi",
+          "target": "organization::PrimeLand Ventures",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Imran Qureshi",
+          "target": "organization::RAW",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Imran Qureshi",
+          "target": "organization::Trafficking/Agra",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Imran Qureshi's",
+          "target": "person::Salim Qureshi",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::Imran Qureshi's",
+          "target": "person::Secunderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::Imran Qureshi's",
+          "target": "location::Secunderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::Imran Qureshi's",
+          "target": "organization::BlueShield Logistics",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::Imran Qureshi's",
+          "target": "organization::RDX",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::Imran Qureshi's",
+          "target": "phone::9440098765",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::Imran Qureshi's",
+          "target": "vehicle::TS-09-KL-2345",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::Salim Qureshi",
+          "target": "person::Secunderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::Salim Qureshi",
+          "target": "location::Secunderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::Salim Qureshi",
+          "target": "organization::BlueShield Logistics",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::Salim Qureshi",
+          "target": "organization::RDX",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::Salim Qureshi",
+          "target": "phone::9440098765",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::Salim Qureshi",
+          "target": "vehicle::TS-09-KL-2345",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::Secunderabad",
+          "target": "location::Secunderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::Secunderabad",
+          "target": "organization::BlueShield Logistics",
+          "weight": 2,
+          "reports": [
+            "RPT-010",
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::Secunderabad",
+          "target": "organization::RDX",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::Secunderabad",
+          "target": "phone::9440098765",
+          "weight": 2,
+          "reports": [
+            "RPT-010",
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::Secunderabad",
+          "target": "vehicle::TS-09-KL-2345",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "person::Secunderabad",
+          "target": "person::Arjun Mehta's",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Secunderabad",
+          "target": "location::Hawala/Delhi",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Secunderabad",
+          "target": "location::Hyderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Secunderabad",
+          "target": "organization::Drugs/Chennai",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Secunderabad",
+          "target": "organization::Explosives/Hyderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Secunderabad",
+          "target": "organization::PrimeLand Ventures",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Secunderabad",
+          "target": "organization::RAW",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Secunderabad",
+          "target": "organization::Trafficking/Agra",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "location::Secunderabad",
+          "target": "organization::BlueShield Logistics",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "location::Secunderabad",
+          "target": "organization::RDX",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "location::Secunderabad",
+          "target": "phone::9440098765",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "location::Secunderabad",
+          "target": "vehicle::TS-09-KL-2345",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "organization::BlueShield Logistics",
+          "target": "organization::RDX",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "organization::BlueShield Logistics",
+          "target": "phone::9440098765",
+          "weight": 2,
+          "reports": [
+            "RPT-010",
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "organization::BlueShield Logistics",
+          "target": "vehicle::TS-09-KL-2345",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "organization::BlueShield Logistics",
+          "target": "person::Arjun Mehta's",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "organization::BlueShield Logistics",
+          "target": "location::Hawala/Delhi",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "organization::BlueShield Logistics",
+          "target": "location::Hyderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "organization::BlueShield Logistics",
+          "target": "organization::Drugs/Chennai",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "organization::BlueShield Logistics",
+          "target": "organization::Explosives/Hyderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "organization::BlueShield Logistics",
+          "target": "organization::PrimeLand Ventures",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "organization::BlueShield Logistics",
+          "target": "organization::RAW",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "organization::BlueShield Logistics",
+          "target": "organization::Trafficking/Agra",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "organization::RDX",
+          "target": "phone::9440098765",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "organization::RDX",
+          "target": "vehicle::TS-09-KL-2345",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "phone::9440098765",
+          "target": "vehicle::TS-09-KL-2345",
+          "weight": 1,
+          "reports": [
+            "RPT-006"
+          ]
+        },
+        {
+          "source": "phone::9440098765",
+          "target": "person::Arjun Mehta's",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "phone::9440098765",
+          "target": "location::Hawala/Delhi",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "phone::9440098765",
+          "target": "location::Hyderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "phone::9440098765",
+          "target": "organization::Drugs/Chennai",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "phone::9440098765",
+          "target": "organization::Explosives/Hyderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "phone::9440098765",
+          "target": "organization::PrimeLand Ventures",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "phone::9440098765",
+          "target": "organization::RAW",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "phone::9440098765",
+          "target": "organization::Trafficking/Agra",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Koyambedu",
+          "target": "person::Meena Rajan",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Koyambedu",
+          "target": "person::Selvam Krishnan",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Koyambedu",
+          "target": "location::Chennai Port",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Koyambedu",
+          "target": "location::Krishnan",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Koyambedu",
+          "target": "location::Mumbai",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Koyambedu",
+          "target": "organization::Chennai Customs",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Koyambedu",
+          "target": "organization::SunriseExport Pvt Ltd",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Koyambedu",
+          "target": "organization::SunriseExport Pvt Ltd.",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Koyambedu",
+          "target": "phone::9444056789",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Koyambedu",
+          "target": "vehicle::TN-09-MN-6789",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Meena Rajan",
+          "target": "person::Selvam Krishnan",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Meena Rajan",
+          "target": "location::Chennai Port",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Meena Rajan",
+          "target": "location::Krishnan",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Meena Rajan",
+          "target": "location::Mumbai",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Meena Rajan",
+          "target": "organization::Chennai Customs",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Meena Rajan",
+          "target": "organization::SunriseExport Pvt Ltd",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Meena Rajan",
+          "target": "organization::SunriseExport Pvt Ltd.",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Meena Rajan",
+          "target": "phone::9444056789",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Meena Rajan",
+          "target": "vehicle::TN-09-MN-6789",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Selvam Krishnan",
+          "target": "location::Chennai Port",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Selvam Krishnan",
+          "target": "location::Krishnan",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Selvam Krishnan",
+          "target": "location::Mumbai",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Selvam Krishnan",
+          "target": "organization::Chennai Customs",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Selvam Krishnan",
+          "target": "organization::SunriseExport Pvt Ltd",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Selvam Krishnan",
+          "target": "organization::SunriseExport Pvt Ltd.",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Selvam Krishnan",
+          "target": "phone::9444056789",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Selvam Krishnan",
+          "target": "vehicle::TN-09-MN-6789",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "location::Chennai Port",
+          "target": "location::Krishnan",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "location::Chennai Port",
+          "target": "location::Mumbai",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "location::Chennai Port",
+          "target": "organization::Chennai Customs",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "location::Chennai Port",
+          "target": "organization::SunriseExport Pvt Ltd",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "location::Chennai Port",
+          "target": "organization::SunriseExport Pvt Ltd.",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "location::Chennai Port",
+          "target": "phone::9444056789",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "location::Chennai Port",
+          "target": "vehicle::TN-09-MN-6789",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "location::Krishnan",
+          "target": "location::Mumbai",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "location::Krishnan",
+          "target": "organization::Chennai Customs",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "location::Krishnan",
+          "target": "organization::SunriseExport Pvt Ltd",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "location::Krishnan",
+          "target": "organization::SunriseExport Pvt Ltd.",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "location::Krishnan",
+          "target": "phone::9444056789",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "location::Krishnan",
+          "target": "vehicle::TN-09-MN-6789",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "location::Mumbai",
+          "target": "organization::Chennai Customs",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "location::Mumbai",
+          "target": "organization::SunriseExport Pvt Ltd",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "location::Mumbai",
+          "target": "organization::SunriseExport Pvt Ltd.",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "location::Mumbai",
+          "target": "phone::9444056789",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "location::Mumbai",
+          "target": "vehicle::TN-09-MN-6789",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "organization::Chennai Customs",
+          "target": "organization::SunriseExport Pvt Ltd",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "organization::Chennai Customs",
+          "target": "organization::SunriseExport Pvt Ltd.",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "organization::Chennai Customs",
+          "target": "phone::9444056789",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "organization::Chennai Customs",
+          "target": "vehicle::TN-09-MN-6789",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "organization::SunriseExport Pvt Ltd",
+          "target": "organization::SunriseExport Pvt Ltd.",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "organization::SunriseExport Pvt Ltd",
+          "target": "phone::9444056789",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "organization::SunriseExport Pvt Ltd",
+          "target": "vehicle::TN-09-MN-6789",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "organization::SunriseExport Pvt Ltd.",
+          "target": "phone::9444056789",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "organization::SunriseExport Pvt Ltd.",
+          "target": "vehicle::TN-09-MN-6789",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "phone::9444056789",
+          "target": "vehicle::TN-09-MN-6789",
+          "weight": 1,
+          "reports": [
+            "RPT-007"
+          ]
+        },
+        {
+          "source": "person::Vivek Shetty",
+          "target": "location::Bengaluru",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "person::Vivek Shetty",
+          "target": "location::Whitefield",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "person::Vivek Shetty",
+          "target": "organization::Deepa Nair",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "person::Vivek Shetty",
+          "target": "organization::Deepa Nair's",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "person::Vivek Shetty",
+          "target": "organization::Karnataka CID",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "person::Vivek Shetty",
+          "target": "organization::PrimeLand Ventures",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "person::Vivek Shetty",
+          "target": "phone::9845067890",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "person::Vivek Shetty",
+          "target": "vehicle::KA-03-OP-4567",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "location::Bengaluru",
+          "target": "location::Whitefield",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "location::Bengaluru",
+          "target": "organization::Deepa Nair",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "location::Bengaluru",
+          "target": "organization::Deepa Nair's",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "location::Bengaluru",
+          "target": "organization::Karnataka CID",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "location::Bengaluru",
+          "target": "organization::PrimeLand Ventures",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "location::Bengaluru",
+          "target": "phone::9845067890",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "location::Bengaluru",
+          "target": "vehicle::KA-03-OP-4567",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "location::Whitefield",
+          "target": "organization::Deepa Nair",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "location::Whitefield",
+          "target": "organization::Deepa Nair's",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "location::Whitefield",
+          "target": "organization::Karnataka CID",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "location::Whitefield",
+          "target": "organization::PrimeLand Ventures",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "location::Whitefield",
+          "target": "phone::9845067890",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "location::Whitefield",
+          "target": "vehicle::KA-03-OP-4567",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "organization::Deepa Nair",
+          "target": "organization::Deepa Nair's",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "organization::Deepa Nair",
+          "target": "organization::Karnataka CID",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "organization::Deepa Nair",
+          "target": "organization::PrimeLand Ventures",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "organization::Deepa Nair",
+          "target": "phone::9845067890",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "organization::Deepa Nair",
+          "target": "vehicle::KA-03-OP-4567",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "organization::Deepa Nair's",
+          "target": "organization::Karnataka CID",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "organization::Deepa Nair's",
+          "target": "organization::PrimeLand Ventures",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "organization::Deepa Nair's",
+          "target": "phone::9845067890",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "organization::Deepa Nair's",
+          "target": "vehicle::KA-03-OP-4567",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "organization::Karnataka CID",
+          "target": "organization::PrimeLand Ventures",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "organization::Karnataka CID",
+          "target": "phone::9845067890",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "organization::Karnataka CID",
+          "target": "vehicle::KA-03-OP-4567",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "organization::PrimeLand Ventures",
+          "target": "phone::9845067890",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "organization::PrimeLand Ventures",
+          "target": "vehicle::KA-03-OP-4567",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "organization::PrimeLand Ventures",
+          "target": "person::Arjun Mehta's",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "organization::PrimeLand Ventures",
+          "target": "location::Hawala/Delhi",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "organization::PrimeLand Ventures",
+          "target": "location::Hyderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "organization::PrimeLand Ventures",
+          "target": "organization::Drugs/Chennai",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "organization::PrimeLand Ventures",
+          "target": "organization::Explosives/Hyderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "organization::PrimeLand Ventures",
+          "target": "organization::RAW",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "organization::PrimeLand Ventures",
+          "target": "organization::Trafficking/Agra",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "phone::9845067890",
+          "target": "vehicle::KA-03-OP-4567",
+          "weight": 1,
+          "reports": [
+            "RPT-008"
+          ]
+        },
+        {
+          "source": "person::Habibur Rahman",
+          "target": "person::Habibur Rahman's",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Habibur Rahman",
+          "target": "person::Kolkata",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Habibur Rahman",
+          "target": "person::Nasreen Bibi",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Habibur Rahman",
+          "target": "person::Vehicle WB-06-QR-8901",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Habibur Rahman",
+          "target": "location::Metiabruz",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Habibur Rahman",
+          "target": "location::Nepal",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Habibur Rahman",
+          "target": "phone::9831067890",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Habibur Rahman",
+          "target": "vehicle::WB-06-QR-8901",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Habibur Rahman's",
+          "target": "person::Kolkata",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Habibur Rahman's",
+          "target": "person::Nasreen Bibi",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Habibur Rahman's",
+          "target": "person::Vehicle WB-06-QR-8901",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Habibur Rahman's",
+          "target": "location::Metiabruz",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Habibur Rahman's",
+          "target": "location::Nepal",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Habibur Rahman's",
+          "target": "phone::9831067890",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Habibur Rahman's",
+          "target": "vehicle::WB-06-QR-8901",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Kolkata",
+          "target": "person::Nasreen Bibi",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Kolkata",
+          "target": "person::Vehicle WB-06-QR-8901",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Kolkata",
+          "target": "location::Metiabruz",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Kolkata",
+          "target": "location::Nepal",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Kolkata",
+          "target": "phone::9831067890",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Kolkata",
+          "target": "vehicle::WB-06-QR-8901",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Nasreen Bibi",
+          "target": "person::Vehicle WB-06-QR-8901",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Nasreen Bibi",
+          "target": "location::Metiabruz",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Nasreen Bibi",
+          "target": "location::Nepal",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Nasreen Bibi",
+          "target": "phone::9831067890",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Nasreen Bibi",
+          "target": "vehicle::WB-06-QR-8901",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Vehicle WB-06-QR-8901",
+          "target": "location::Metiabruz",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Vehicle WB-06-QR-8901",
+          "target": "location::Nepal",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Vehicle WB-06-QR-8901",
+          "target": "phone::9831067890",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Vehicle WB-06-QR-8901",
+          "target": "vehicle::WB-06-QR-8901",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "location::Metiabruz",
+          "target": "location::Nepal",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "location::Metiabruz",
+          "target": "phone::9831067890",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "location::Metiabruz",
+          "target": "vehicle::WB-06-QR-8901",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "location::Nepal",
+          "target": "phone::9831067890",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "location::Nepal",
+          "target": "vehicle::WB-06-QR-8901",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "phone::9831067890",
+          "target": "vehicle::WB-06-QR-8901",
+          "weight": 1,
+          "reports": [
+            "RPT-009"
+          ]
+        },
+        {
+          "source": "person::Arjun Mehta's",
+          "target": "location::Hawala/Delhi",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Arjun Mehta's",
+          "target": "location::Hyderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Arjun Mehta's",
+          "target": "organization::Drugs/Chennai",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Arjun Mehta's",
+          "target": "organization::Explosives/Hyderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Arjun Mehta's",
+          "target": "organization::RAW",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "person::Arjun Mehta's",
+          "target": "organization::Trafficking/Agra",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "location::Hawala/Delhi",
+          "target": "location::Hyderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "location::Hawala/Delhi",
+          "target": "organization::Drugs/Chennai",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "location::Hawala/Delhi",
+          "target": "organization::Explosives/Hyderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "location::Hawala/Delhi",
+          "target": "organization::RAW",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "location::Hawala/Delhi",
+          "target": "organization::Trafficking/Agra",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "location::Hyderabad",
+          "target": "organization::Drugs/Chennai",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "location::Hyderabad",
+          "target": "organization::Explosives/Hyderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "location::Hyderabad",
+          "target": "organization::RAW",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "location::Hyderabad",
+          "target": "organization::Trafficking/Agra",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "organization::Drugs/Chennai",
+          "target": "organization::Explosives/Hyderabad",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "organization::Drugs/Chennai",
+          "target": "organization::RAW",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "organization::Drugs/Chennai",
+          "target": "organization::Trafficking/Agra",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "organization::Explosives/Hyderabad",
+          "target": "organization::RAW",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "organization::Explosives/Hyderabad",
+          "target": "organization::Trafficking/Agra",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        },
+        {
+          "source": "organization::RAW",
+          "target": "organization::Trafficking/Agra",
+          "weight": 1,
+          "reports": [
+            "RPT-010"
+          ]
+        }
+      ]
+    },
+    "extractions": [
+      {
+        "report_id": "RPT-001",
+        "persons": [
+          "Arjun Mehta",
+          "Kabir Ansari",
+          "Pillai",
+          "Suresh Pillai"
+        ],
+        "locations": [],
+        "organizations": [
+          "Red Crescent Syndicate",
+          "the Red Crescent Syndicate"
+        ],
+        "phones": [
+          "9820045678",
+          "9867123456"
+        ],
+        "vehicles": [
+          "MH-02-AB-1234"
+        ]
+      },
+      {
+        "report_id": "RPT-002",
+        "persons": [
+          "Devraj Singh",
+          "Manoj Tiwari"
+        ],
+        "locations": [
+          "Bihar"
+        ],
+        "organizations": [
+          "Chacha",
+          "Patna",
+          "Phulwari Sharif",
+          "Red Crescent Syndicate",
+          "SIM"
+        ],
+        "phones": [
+          "9334567890"
+        ],
+        "vehicles": [
+          "BR-01-CD-5678"
+        ]
+      },
+      {
+        "report_id": "RPT-003",
+        "persons": [
+          "Kabir Ansari",
+          "Priya Sharma",
+          "Rajan Verma",
+          "Rajan Verma's"
+        ],
+        "locations": [
+          "Chowk",
+          "Delhi"
+        ],
+        "organizations": [
+          "Connaught Place",
+          "Delhi Police's",
+          "Rajan Verma"
+        ],
+        "phones": [
+          "9711234567"
+        ],
+        "vehicles": [
+          "DL-05-EF-9012"
+        ]
+      },
+      {
+        "report_id": "RPT-004",
+        "persons": [
+          "Anita Jha",
+          "Rohit Kumar"
+        ],
+        "locations": [
+          "Jamtara"
+        ],
+        "organizations": [
+          "Patna",
+          "TechVault Solutions"
+        ],
+        "phones": [
+          "9334567890",
+          "9801234567"
+        ],
+        "vehicles": [
+          "JH-10-GH-3456"
+        ]
+      },
+      {
+        "report_id": "RPT-005",
+        "persons": [
+          "Agra",
+          "Farida Shaikh",
+          "Govind Rao",
+          "Rajan Verma"
+        ],
+        "locations": [
+          "Delhi",
+          "Taj Ganj"
+        ],
+        "organizations": [
+          "Agra"
+        ],
+        "phones": [
+          "9456789012",
+          "9711234567"
+        ],
+        "vehicles": [
+          "UP-80-IJ-7890"
+        ]
+      },
+      {
+        "report_id": "RPT-006",
+        "persons": [
+          "9440098765",
+          "Imran Qureshi",
+          "Imran Qureshi's",
+          "Salim Qureshi",
+          "Secunderabad"
+        ],
+        "locations": [
+          "Delhi",
+          "Secunderabad"
+        ],
+        "organizations": [
+          "BlueShield Logistics",
+          "RDX"
+        ],
+        "phones": [
+          "9440098765"
+        ],
+        "vehicles": [
+          "TS-09-KL-2345"
+        ]
+      },
+      {
+        "report_id": "RPT-007",
+        "persons": [
+          "Arjun Mehta",
+          "Koyambedu",
+          "Meena Rajan",
+          "Selvam Krishnan"
+        ],
+        "locations": [
+          "Chennai Port",
+          "Krishnan",
+          "Mumbai"
+        ],
+        "organizations": [
+          "Chennai Customs",
+          "SunriseExport Pvt Ltd",
+          "SunriseExport Pvt Ltd."
+        ],
+        "phones": [
+          "9444056789"
+        ],
+        "vehicles": [
+          "TN-09-MN-6789"
+        ]
+      },
+      {
+        "report_id": "RPT-008",
+        "persons": [
+          "Priya Sharma",
+          "Vivek Shetty"
+        ],
+        "locations": [
+          "Bengaluru",
+          "Delhi",
+          "Whitefield"
+        ],
+        "organizations": [
+          "Deepa Nair",
+          "Deepa Nair's",
+          "Karnataka CID",
+          "PrimeLand Ventures"
+        ],
+        "phones": [
+          "9845067890"
+        ],
+        "vehicles": [
+          "KA-03-OP-4567"
+        ]
+      },
+      {
+        "report_id": "RPT-009",
+        "persons": [
+          "Devraj Singh",
+          "Habibur Rahman",
+          "Habibur Rahman's",
+          "Kolkata",
+          "Nasreen Bibi",
+          "Vehicle WB-06-QR-8901"
+        ],
+        "locations": [
+          "Metiabruz",
+          "Nepal"
+        ],
+        "organizations": [
+          "Patna",
+          "Red Crescent Syndicate"
+        ],
+        "phones": [
+          "9831067890"
+        ],
+        "vehicles": [
+          "WB-06-QR-8901"
+        ]
+      },
+      {
+        "report_id": "RPT-010",
+        "persons": [
+          "Arjun Mehta's",
+          "Imran Qureshi",
+          "Rajan Verma",
+          "Secunderabad"
+        ],
+        "locations": [
+          "Delhi",
+          "Hawala/Delhi",
+          "Hyderabad"
+        ],
+        "organizations": [
+          "BlueShield Logistics",
+          "Drugs/Chennai",
+          "Explosives/Hyderabad",
+          "PrimeLand Ventures",
+          "RAW",
+          "Trafficking/Agra"
+        ],
+        "phones": [
+          "9440098765",
+          "9711234567"
+        ],
+        "vehicles": []
+      }
+    ]
+  },
+  "influencers": [
+    {
+      "id": "location::Delhi",
+      "label": "Delhi",
+      "type": "location",
+      "degree": 0.5,
+      "betweenness": 0.2897,
+      "pagerank": 0.0386,
+      "composite": 0.2775,
+      "reports": [
+        "RPT-003",
+        "RPT-008",
+        "RPT-006",
+        "RPT-005",
+        "RPT-010"
+      ],
+      "reason": "Delhi (location) \u2014 appears in 5 separate cases (RPT-003, RPT-008, RPT-006, RPT-005, RPT-010); acts as a key bridge between unrelated clusters; directly connected to 43 other entities."
+    },
+    {
+      "id": "person::Kabir Ansari",
+      "label": "Kabir Ansari",
+      "type": "person",
+      "degree": 0.2093,
+      "betweenness": 0.5059,
+      "pagerank": 0.0159,
+      "composite": 0.2699,
+      "reports": [
+        "RPT-003",
+        "RPT-001"
+      ],
+      "reason": "Kabir Ansari (person) \u2014 appears in 2 separate cases (RPT-003, RPT-001); acts as a key bridge between unrelated clusters."
+    },
+    {
+      "id": "organization::Red Crescent Syndicate",
+      "label": "Red Crescent Syndicate",
+      "type": "organization",
+      "degree": 0.3023,
+      "betweenness": 0.4129,
+      "pagerank": 0.0258,
+      "composite": 0.2636,
+      "reports": [
+        "RPT-009",
+        "RPT-001",
+        "RPT-002"
+      ],
+      "reason": "Red Crescent Syndicate (organization) \u2014 appears in 3 separate cases (RPT-009, RPT-001, RPT-002); acts as a key bridge between unrelated clusters; directly connected to 26 other entities."
+    },
+    {
+      "id": "person::Arjun Mehta",
+      "label": "Arjun Mehta",
+      "type": "person",
+      "degree": 0.2209,
+      "betweenness": 0.2257,
+      "pagerank": 0.0183,
+      "composite": 0.1621,
+      "reports": [
+        "RPT-001",
+        "RPT-007"
+      ],
+      "reason": "Arjun Mehta (person) \u2014 appears in 2 separate cases (RPT-001, RPT-007); acts as a key bridge between unrelated clusters."
+    },
+    {
+      "id": "person::Rajan Verma",
+      "label": "Rajan Verma",
+      "type": "person",
+      "degree": 0.3372,
+      "betweenness": 0.0946,
+      "pagerank": 0.0244,
+      "composite": 0.1463,
+      "reports": [
+        "RPT-003",
+        "RPT-010",
+        "RPT-005"
+      ],
+      "reason": "Rajan Verma (person) \u2014 appears in 3 separate cases (RPT-003, RPT-010, RPT-005); directly connected to 29 other entities."
+    },
+    {
+      "id": "phone::9711234567",
+      "label": "9711234567",
+      "type": "phone",
+      "degree": 0.3372,
+      "betweenness": 0.0946,
+      "pagerank": 0.0244,
+      "composite": 0.1463,
+      "reports": [
+        "RPT-003",
+        "RPT-010",
+        "RPT-005"
+      ],
+      "reason": "9711234567 (phone) \u2014 appears in 3 separate cases (RPT-003, RPT-010, RPT-005); directly connected to 29 other entities."
+    },
+    {
+      "id": "organization::Patna",
+      "label": "Patna",
+      "type": "organization",
+      "degree": 0.2791,
+      "betweenness": 0.078,
+      "pagerank": 0.0259,
+      "composite": 0.1227,
+      "reports": [
+        "RPT-009",
+        "RPT-004",
+        "RPT-002"
+      ],
+      "reason": "Patna (organization) \u2014 appears in 3 separate cases (RPT-009, RPT-004, RPT-002)."
+    },
+    {
+      "id": "person::Priya Sharma",
+      "label": "Priya Sharma",
+      "type": "person",
+      "degree": 0.2209,
+      "betweenness": 0.0596,
+      "pagerank": 0.0162,
+      "composite": 0.095,
+      "reports": [
+        "RPT-003",
+        "RPT-008"
+      ],
+      "reason": "Priya Sharma (person) \u2014 appears in 2 separate cases (RPT-003, RPT-008)."
+    },
+    {
+      "id": "organization::PrimeLand Ventures",
+      "label": "PrimeLand Ventures",
+      "type": "organization",
+      "degree": 0.2674,
+      "betweenness": 0.0142,
+      "pagerank": 0.018,
+      "composite": 0.0913,
+      "reports": [
+        "RPT-010",
+        "RPT-008"
+      ],
+      "reason": "PrimeLand Ventures (organization) \u2014 appears in 2 separate cases (RPT-010, RPT-008)."
+    },
+    {
+      "id": "phone::9334567890",
+      "label": "9334567890",
+      "type": "phone",
+      "degree": 0.1744,
+      "betweenness": 0.0575,
+      "pagerank": 0.0167,
+      "composite": 0.0803,
+      "reports": [
+        "RPT-004",
+        "RPT-002"
+      ],
+      "reason": "9334567890 (phone) \u2014 appears in 2 separate cases (RPT-004, RPT-002)."
+    }
+  ],
+  "alerts": [
+    {
+      "type": "SHARED_PHONE",
+      "severity": "HIGH",
+      "entity": "9334567890",
+      "related": [
+        "Devraj Singh",
+        "Manoj Tiwari",
+        "Anita Jha",
+        "Rohit Kumar"
+      ],
+      "reports": [
+        "RPT-004",
+        "RPT-002"
+      ],
+      "reason": "Phone 9334567890 linked to 4 different persons across cases RPT-004, RPT-002. Indicates coordinated communication."
+    },
+    {
+      "type": "SHARED_PHONE",
+      "severity": "HIGH",
+      "entity": "9711234567",
+      "related": [
+        "Kabir Ansari",
+        "Priya Sharma",
+        "Rajan Verma",
+        "Rajan Verma's",
+        "Agra",
+        "Farida Shaikh",
+        "Govind Rao",
+        "Arjun Mehta's",
+        "Imran Qureshi",
+        "Secunderabad"
+      ],
+      "reports": [
+        "RPT-003",
+        "RPT-010",
+        "RPT-005"
+      ],
+      "reason": "Phone 9711234567 linked to 10 different persons across cases RPT-003, RPT-010, RPT-005. Indicates coordinated communication."
+    },
+    {
+      "type": "SHARED_PHONE",
+      "severity": "HIGH",
+      "entity": "9440098765",
+      "related": [
+        "9440098765",
+        "Imran Qureshi",
+        "Imran Qureshi's",
+        "Salim Qureshi",
+        "Secunderabad",
+        "Arjun Mehta's",
+        "Rajan Verma"
+      ],
+      "reports": [
+        "RPT-010",
+        "RPT-006"
+      ],
+      "reason": "Phone 9440098765 linked to 7 different persons across cases RPT-010, RPT-006. Indicates coordinated communication."
+    },
+    {
+      "type": "BRIDGE_ENTITY",
+      "severity": "CRITICAL",
+      "entity": "Arjun Mehta",
+      "related": [],
+      "reports": [
+        "RPT-001",
+        "RPT-007"
+      ],
+      "reason": "Arjun Mehta has betweenness centrality of 0.23, meaning removing this node would fragment the network into disconnected sub-networks. High-value target."
+    },
+    {
+      "type": "BRIDGE_ENTITY",
+      "severity": "CRITICAL",
+      "entity": "Kabir Ansari",
+      "related": [],
+      "reports": [
+        "RPT-003",
+        "RPT-001"
+      ],
+      "reason": "Kabir Ansari has betweenness centrality of 0.51, meaning removing this node would fragment the network into disconnected sub-networks. High-value target."
+    },
+    {
+      "type": "BRIDGE_ENTITY",
+      "severity": "CRITICAL",
+      "entity": "Red Crescent Syndicate",
+      "related": [],
+      "reports": [
+        "RPT-009",
+        "RPT-001",
+        "RPT-002"
+      ],
+      "reason": "Red Crescent Syndicate has betweenness centrality of 0.41, meaning removing this node would fragment the network into disconnected sub-networks. High-value target."
+    },
+    {
+      "type": "BRIDGE_ENTITY",
+      "severity": "CRITICAL",
+      "entity": "Delhi",
+      "related": [],
+      "reports": [
+        "RPT-003",
+        "RPT-008",
+        "RPT-006",
+        "RPT-005",
+        "RPT-010"
+      ],
+      "reason": "Delhi has betweenness centrality of 0.29, meaning removing this node would fragment the network into disconnected sub-networks. High-value target."
+    },
+    {
+      "type": "ORG_MULTI_CASE",
+      "severity": "HIGH",
+      "entity": "Red Crescent Syndicate",
+      "related": [],
+      "reports": [
+        "RPT-009",
+        "RPT-001",
+        "RPT-002"
+      ],
+      "reason": "Organization 'Red Crescent Syndicate' appears in 3 cases (RPT-009, RPT-001, RPT-002). Possible criminal front."
+    },
+    {
+      "type": "ORG_MULTI_CASE",
+      "severity": "HIGH",
+      "entity": "Patna",
+      "related": [],
+      "reports": [
+        "RPT-009",
+        "RPT-004",
+        "RPT-002"
+      ],
+      "reason": "Organization 'Patna' appears in 3 cases (RPT-009, RPT-004, RPT-002). Possible criminal front."
+    },
+    {
+      "type": "ORG_MULTI_CASE",
+      "severity": "HIGH",
+      "entity": "BlueShield Logistics",
+      "related": [],
+      "reports": [
+        "RPT-010",
+        "RPT-006"
+      ],
+      "reason": "Organization 'BlueShield Logistics' appears in 2 cases (RPT-010, RPT-006). Possible criminal front."
+    },
+    {
+      "type": "ORG_MULTI_CASE",
+      "severity": "HIGH",
+      "entity": "PrimeLand Ventures",
+      "related": [],
+      "reports": [
+        "RPT-010",
+        "RPT-008"
+      ],
+      "reason": "Organization 'PrimeLand Ventures' appears in 2 cases (RPT-010, RPT-008). Possible criminal front."
+    }
+  ],
+  "locations": [
+    {
+      "name": "Chowk",
+      "lat": 28.651,
+      "lng": 77.231,
+      "reports": [
+        "RPT-003"
+      ],
+      "weight": 1,
+      "suspects": [
+        "Priya Sharma",
+        "Rajan Verma",
+        "Kabir Ansari",
+        "Rajan Verma's"
+      ]
+    },
+    {
+      "name": "Delhi",
+      "lat": 28.613,
+      "lng": 77.209,
+      "reports": [
+        "RPT-003",
+        "RPT-008",
+        "RPT-006",
+        "RPT-005",
+        "RPT-010"
+      ],
+      "weight": 5,
+      "suspects": [
+        "Imran Qureshi's",
+        "Govind Rao",
+        "Kabir Ansari",
+        "Agra",
+        "Salim Qureshi",
+        "Farida Shaikh",
+        "Rajan Verma",
+        "Rajan Verma's",
+        "Vivek Shetty",
+        "Imran Qureshi",
+        "Priya Sharma",
+        "Secunderabad",
+        "Arjun Mehta's",
+        "9440098765"
+      ]
+    },
+    {
+      "name": "Jamtara",
+      "lat": 23.965,
+      "lng": 86.997,
+      "reports": [
+        "RPT-004"
+      ],
+      "weight": 1,
+      "suspects": [
+        "Rohit Kumar",
+        "Anita Jha"
+      ]
+    },
+    {
+      "name": "Taj Ganj",
+      "lat": 27.17,
+      "lng": 78.042,
+      "reports": [
+        "RPT-005"
+      ],
+      "weight": 1,
+      "suspects": [
+        "Farida Shaikh",
+        "Govind Rao",
+        "Rajan Verma",
+        "Agra"
+      ]
+    },
+    {
+      "name": "Secunderabad",
+      "lat": 17.444,
+      "lng": 78.498,
+      "reports": [
+        "RPT-006"
+      ],
+      "weight": 1,
+      "suspects": [
+        "Salim Qureshi",
+        "9440098765",
+        "Imran Qureshi",
+        "Secunderabad",
+        "Imran Qureshi's"
+      ]
+    },
+    {
+      "name": "Chennai Port",
+      "lat": 13.082,
+      "lng": 80.27,
+      "reports": [
+        "RPT-007"
+      ],
+      "weight": 1,
+      "suspects": [
+        "Meena Rajan",
+        "Koyambedu",
+        "Selvam Krishnan",
+        "Arjun Mehta"
+      ]
+    },
+    {
+      "name": "Mumbai",
+      "lat": 19.076,
+      "lng": 72.877,
+      "reports": [
+        "RPT-007"
+      ],
+      "weight": 1,
+      "suspects": [
+        "Meena Rajan",
+        "Koyambedu",
+        "Selvam Krishnan",
+        "Arjun Mehta"
+      ]
+    },
+    {
+      "name": "Bengaluru",
+      "lat": 12.971,
+      "lng": 77.594,
+      "reports": [
+        "RPT-008"
+      ],
+      "weight": 1,
+      "suspects": [
+        "Priya Sharma",
+        "Vivek Shetty"
+      ]
+    },
+    {
+      "name": "Whitefield",
+      "lat": 12.969,
+      "lng": 77.75,
+      "reports": [
+        "RPT-008"
+      ],
+      "weight": 1,
+      "suspects": [
+        "Priya Sharma",
+        "Vivek Shetty"
+      ]
+    },
+    {
+      "name": "Metiabruz",
+      "lat": 22.534,
+      "lng": 88.296,
+      "reports": [
+        "RPT-009"
+      ],
+      "weight": 1,
+      "suspects": [
+        "Habibur Rahman",
+        "Habibur Rahman's",
+        "Kolkata",
+        "Devraj Singh",
+        "Nasreen Bibi",
+        "Vehicle WB-06-QR-8901"
+      ]
+    },
+    {
+      "name": "Hawala/Delhi",
+      "lat": 28.613,
+      "lng": 77.209,
+      "reports": [
+        "RPT-010"
+      ],
+      "weight": 1,
+      "suspects": [
+        "Rajan Verma",
+        "Secunderabad",
+        "Arjun Mehta's",
+        "Imran Qureshi"
+      ]
+    },
+    {
+      "name": "Hyderabad",
+      "lat": 17.385,
+      "lng": 78.486,
+      "reports": [
+        "RPT-010"
+      ],
+      "weight": 1,
+      "suspects": [
+        "Rajan Verma",
+        "Secunderabad",
+        "Arjun Mehta's",
+        "Imran Qureshi"
+      ]
+    }
+  ],
+  "brief": {
+    "title": "INVESTIGATOR CASE BRIEF \u2014 CrimeNet Analysis",
+    "generated_at": "2025-01-10T12:00:00",
+    "summary": "Analysis of 10 intelligence reports revealed a network of 87 entities connected by 534 relationships. The network spans multiple jurisdictions including Mumbai, Delhi, Patna, Hyderabad, Chennai, Bengaluru, and Kolkata.",
+    "top_suspects": [
+      "Delhi (location)",
+      "Kabir Ansari (person)",
+      "Red Crescent Syndicate (organization)"
+    ],
+    "key_finding": "CRITICAL: Rajan Verma (Delhi Hawala) appears as a shadow coordinator across 4 cases, with phone contact to Imran Qureshi (Hyderabad Explosives) establishing a cross-domain link between narcotics, trafficking, explosives, and financial crime networks.",
+    "critical_alerts": [
+      "Arjun Mehta has betweenness centrality of 0.23, meaning removing this node would fragment the network into disconnected sub-networks. High-value target.",
+      "Kabir Ansari has betweenness centrality of 0.51, meaning removing this node would fragment the network into disconnected sub-networks. High-value target.",
+      "Red Crescent Syndicate has betweenness centrality of 0.41, meaning removing this node would fragment the network into disconnected sub-networks. High-value target."
+    ],
+    "high_alerts": [
+      "Phone 9334567890 linked to 4 different persons across cases RPT-004, RPT-002. Indicates coordinated communication.",
+      "Phone 9711234567 linked to 10 different persons across cases RPT-003, RPT-010, RPT-005. Indicates coordinated communication.",
+      "Phone 9440098765 linked to 7 different persons across cases RPT-010, RPT-006. Indicates coordinated communication."
+    ],
+    "recommendation": "Recommend immediate surveillance of Rajan Verma and associates. Priority intercept on phone 9711234567. Red Crescent Syndicate to be designated as a listed organization for financial freeze.",
+    "influencer_detail": [
+      {
+        "id": "location::Delhi",
+        "label": "Delhi",
+        "type": "location",
+        "degree": 0.5,
+        "betweenness": 0.2897,
+        "pagerank": 0.0386,
+        "composite": 0.2775,
+        "reports": [
+          "RPT-003",
+          "RPT-008",
+          "RPT-006",
+          "RPT-005",
+          "RPT-010"
+        ],
+        "reason": "Delhi (location) \u2014 appears in 5 separate cases (RPT-003, RPT-008, RPT-006, RPT-005, RPT-010); acts as a key bridge between unrelated clusters; directly connected to 43 other entities."
+      },
+      {
+        "id": "person::Kabir Ansari",
+        "label": "Kabir Ansari",
+        "type": "person",
+        "degree": 0.2093,
+        "betweenness": 0.5059,
+        "pagerank": 0.0159,
+        "composite": 0.2699,
+        "reports": [
+          "RPT-003",
+          "RPT-001"
+        ],
+        "reason": "Kabir Ansari (person) \u2014 appears in 2 separate cases (RPT-003, RPT-001); acts as a key bridge between unrelated clusters."
+      },
+      {
+        "id": "organization::Red Crescent Syndicate",
+        "label": "Red Crescent Syndicate",
+        "type": "organization",
+        "degree": 0.3023,
+        "betweenness": 0.4129,
+        "pagerank": 0.0258,
+        "composite": 0.2636,
+        "reports": [
+          "RPT-009",
+          "RPT-001",
+          "RPT-002"
+        ],
+        "reason": "Red Crescent Syndicate (organization) \u2014 appears in 3 separate cases (RPT-009, RPT-001, RPT-002); acts as a key bridge between unrelated clusters; directly connected to 26 other entities."
+      },
+      {
+        "id": "person::Arjun Mehta",
+        "label": "Arjun Mehta",
+        "type": "person",
+        "degree": 0.2209,
+        "betweenness": 0.2257,
+        "pagerank": 0.0183,
+        "composite": 0.1621,
+        "reports": [
+          "RPT-001",
+          "RPT-007"
+        ],
+        "reason": "Arjun Mehta (person) \u2014 appears in 2 separate cases (RPT-001, RPT-007); acts as a key bridge between unrelated clusters."
+      },
+      {
+        "id": "person::Rajan Verma",
+        "label": "Rajan Verma",
+        "type": "person",
+        "degree": 0.3372,
+        "betweenness": 0.0946,
+        "pagerank": 0.0244,
+        "composite": 0.1463,
+        "reports": [
+          "RPT-003",
+          "RPT-010",
+          "RPT-005"
+        ],
+        "reason": "Rajan Verma (person) \u2014 appears in 3 separate cases (RPT-003, RPT-010, RPT-005); directly connected to 29 other entities."
+      }
+    ],
+    "timeline": [
+      {
+        "id": "RPT-001",
+        "title": "Narcotics Seizure \u2013 Dharavi, Mumbai",
+        "date": "2024-11-12",
+        "summary": "On 12 November 2024, officers from the Mumbai Anti-Narcotics Cell arrested Arjun Mehta and his associate Suresh Pillai near the Dh..."
+      },
+      {
+        "id": "RPT-002",
+        "title": "Arms Cache Discovery \u2013 Patna, Bihar",
+        "date": "2024-11-18",
+        "summary": "On 18 November 2024, Bihar STF recovered an arms cache in the Phulwari Sharif locality of Patna. Informer tipoff led to the arrest..."
+      },
+      {
+        "id": "RPT-003",
+        "title": "Hawala Transaction Intercept \u2013 Delhi",
+        "date": "2024-11-22",
+        "summary": "Delhi Police's Economic Offences Wing intercepted a hawala transaction of \u20b92.3 crore linked to Rajan Verma operating from Chandni ..."
+      },
+      {
+        "id": "RPT-004",
+        "title": "Cyber Fraud Ring \u2013 Jamtara, Jharkhand",
+        "date": "2024-11-28",
+        "summary": "Jharkhand Police dismantled a cyber fraud operation in Jamtara, arresting five individuals including Rohit Kumar and Anita Jha. Th..."
+      },
+      {
+        "id": "RPT-005",
+        "title": "Human Trafficking Network \u2013 Agra, UP",
+        "date": "2024-12-03",
+        "summary": "UP STF busted a human trafficking ring operating from Agra to Delhi. Key suspects include Farida Shaikh and Govind Rao. A minibus ..."
+      },
+      {
+        "id": "RPT-006",
+        "title": "Explosive Material Cache \u2013 Hyderabad",
+        "date": "2024-12-08",
+        "summary": "Hyderabad Police's bomb disposal unit found 12 kg of RDX hidden in a warehouse in Secunderabad. Surveillance linked the warehouse ..."
+      },
+      {
+        "id": "RPT-007",
+        "title": "Drug Courier Network \u2013 Chennai Port",
+        "date": "2024-12-14",
+        "summary": "Chennai Customs intercepted a drug shipment at Chennai Port concealed in a spice consignment. Suspects include Selvam Krishnan and..."
+      },
+      {
+        "id": "RPT-008",
+        "title": "Land Grab Nexus \u2013 Bengaluru",
+        "date": "2024-12-19",
+        "summary": "Karnataka CID initiated an investigation into fraudulent land registrations in Whitefield, Bengaluru. Central figures are Deepa Na..."
+      },
+      {
+        "id": "RPT-009",
+        "title": "Counterfeit Currency \u2013 Kolkata",
+        "date": "2024-12-24",
+        "summary": "West Bengal Police seized fake currency notes worth \u20b950 lakh from a printing press in Metiabruz, Kolkata. Arrested suspects: Habib..."
+      },
+      {
+        "id": "RPT-010",
+        "title": "HIDDEN LINK: Shadow Coordinator \u2013 Rajan Verma",
+        "date": "2024-12-30",
+        "summary": "An intelligence note from RAW indicates that Rajan Verma (phone 9711234567), previously identified in the Delhi hawala case (RPT-0..."
+      }
+    ]
+  }
+}

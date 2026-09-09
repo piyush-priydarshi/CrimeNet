@@ -12,7 +12,11 @@ ENV/
 frontend/node_modules/
 frontend/dist/
 
+# Vercel
+.vercel/
+
 # OS / IDE
 .DS_Store
 .vscode/
 .idea/
+
