@@ -10,6 +10,9 @@ import {
   AlertCircle,
   Network,
   ChevronLeft,
+  Image,
+  FileCode,
+  File,
 } from 'lucide-react'
 
 export default function IntakePage({ onNavigate, onProcessed }) {
@@ -20,6 +23,25 @@ export default function IntakePage({ onNavigate, onProcessed }) {
   const [loadingSample, setLoadingSample] = useState(false)
   const [processing, setProcessing] = useState(false)
   const [error, setError] = useState(null)
+  const [fileUploading, setFileUploading] = useState(false)
+  const [uploadedFiles, setUploadedFiles] = useState([])
+
+  const ACCEPTED_TYPES = {
+    'text/plain': '.txt',
+    'text/html': '.html',
+    'text/csv': '.csv',
+    'application/json': '.json',
+    'application/xml': '.xml',
+    'text/xml': '.xml',
+    'application/pdf': '.pdf',
+    'application/vnd.openxmlformats-officedocument.wordprocessingml.document': '.docx',
+    'image/png': '.png',
+    'image/jpeg': '.jpg',
+    'image/webp': '.webp',
+    'image/gif': '.gif',
+  }
+
+  const ACCEPT_STRING = Object.values(ACCEPTED_TYPES).join(',') + ',' + Object.keys(ACCEPTED_TYPES).join(',')
 
   const handleLoadSample = async () => {
     setLoadingSample(true)
@@ -47,6 +69,53 @@ export default function IntakePage({ onNavigate, onProcessed }) {
     setReports(prev => [...prev, newReport])
     setCustomText('')
     setCustomTitle('')
+  }
+
+  const handleFileUpload = async (e) => {
+    const files = Array.from(e.target.files || [])
+    if (files.length === 0) return
+    setFileUploading(true)
+    setError(null)
+
+    try {
+      for (const file of files) {
+        let text = ''
+        const isImage = file.type.startsWith('image/')
+
+        if (isImage) {
+          // For images, store a reference note (demo — real system would run OCR)
+          text = `[Image file uploaded: ${file.name} (${(file.size / 1024).toFixed(1)} KB, ${file.type})]\n\nNote: In production, this image would be processed through OCR / computer vision to extract text and entities.`
+        } else if (file.type === 'application/pdf') {
+          text = `[PDF document uploaded: ${file.name} (${(file.size / 1024).toFixed(1)} KB)]\n\nNote: In production, this PDF would be parsed to extract full text content for entity extraction.`
+        } else if (file.name.endsWith('.docx')) {
+          text = `[Word document uploaded: ${file.name} (${(file.size / 1024).toFixed(1)} KB)]\n\nNote: In production, this DOCX would be parsed to extract full text content for entity extraction.`
+        } else {
+          // Text-based files: txt, html, csv, json, xml
+          text = await file.text()
+        }
+
+        const ext = file.name.split('.').pop()?.toUpperCase() || 'FILE'
+        const newReport = {
+          id: `CR-FILE-${String(reports.length + 1).padStart(3, '0')}`,
+          date: new Date().toISOString().slice(0, 10),
+          title: `${ext}: ${file.name}`,
+          text: text,
+          source: 'file',
+          fileName: file.name,
+          fileType: file.type,
+          fileSize: file.size,
+        }
+        setReports(prev => [...prev, newReport])
+        setUploadedFiles(prev => [...prev, file.name])
+      }
+    } catch (err) {
+      console.error(err)
+      setError('Failed to read one or more files.')
+    } finally {
+      setFileUploading(false)
+      // Reset input so the same file can be re-selected
+      e.target.value = ''
+    }
   }
 
   const handleProceed = async () => {
@@ -237,6 +306,78 @@ export default function IntakePage({ onNavigate, onProcessed }) {
                     >
                       + Stage this report
                     </button>
+
+                    {/* File Upload Section */}
+                    <div className="flex items-center gap-3 pt-1">
+                      <div className="flex-1 h-px bg-[#322E27]" />
+                      <span className="text-[11px] text-[#78716C] font-medium">OR UPLOAD FILES</span>
+                      <div className="flex-1 h-px bg-[#322E27]" />
+                    </div>
+
+                    <label
+                      className={`group relative flex flex-col items-center justify-center gap-3 p-5 rounded-xl border-2 border-dashed transition-all cursor-pointer ${
+                        fileUploading
+                          ? 'border-[#D97706] bg-[#D97706]/5'
+                          : 'border-[#322E27] hover:border-[#D97706]/50 hover:bg-[#24211C]/60'
+                      }`}
+                    >
+                      <input
+                        type="file"
+                        multiple
+                        accept={ACCEPT_STRING}
+                        onChange={handleFileUpload}
+                        className="sr-only"
+                        disabled={fileUploading}
+                      />
+                      {fileUploading ? (
+                        <>
+                          <span className="w-6 h-6 border-2 border-[#D97706] border-t-transparent rounded-full animate-spin" />
+                          <span className="text-xs text-[#D97706] font-medium">Processing files...</span>
+                        </>
+                      ) : (
+                        <>
+                          <div className="flex items-center gap-2 text-[#A8A29E] group-hover:text-[#D97706] transition-colors">
+                            <Upload size={18} />
+                            <span className="text-sm font-medium">Click to upload or drag & drop</span>
+                          </div>
+                          <div className="flex flex-wrap justify-center gap-1.5">
+                            {[
+                              { icon: FileText, label: 'TXT' },
+                              { icon: FileCode, label: 'HTML' },
+                              { icon: File, label: 'PDF' },
+                              { icon: File, label: 'DOCX' },
+                              { icon: FileText, label: 'CSV' },
+                              { icon: FileCode, label: 'JSON' },
+                              { icon: FileCode, label: 'XML' },
+                              { icon: Image, label: 'Images' },
+                            ].map(f => (
+                              <span
+                                key={f.label}
+                                className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-[#24211C] border border-[#322E27] text-[10px] text-[#A8A29E] font-mono"
+                              >
+                                <f.icon size={10} />
+                                {f.label}
+                              </span>
+                            ))}
+                          </div>
+                        </>
+                      )}
+                    </label>
+
+                    {/* Uploaded files list */}
+                    {uploadedFiles.length > 0 && (
+                      <div className="flex flex-wrap gap-2">
+                        {uploadedFiles.map((name, i) => (
+                          <span
+                            key={i}
+                            className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-[#2DD4BF]/10 border border-[#2DD4BF]/30 text-[11px] text-[#2DD4BF] font-medium"
+                          >
+                            <CheckCircle2 size={11} />
+                            <span className="truncate max-w-[140px]">{name}</span>
+                          </span>
+                        ))}
+                      </div>
+                    )}
                   </div>
                 )}
               </div>
